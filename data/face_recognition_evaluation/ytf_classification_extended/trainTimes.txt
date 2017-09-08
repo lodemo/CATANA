@@ -1,0 +1,28 @@
+OpenFace SVM: 0     0.649608
+1     8.969126
+2    30.025357
+Name: trainTimeSecMean, dtype: float64, 0    0.034438
+1    0.097180
+2    0.178183
+Name: trainTimeSecStd, dtype: float64
+OpenFace LinearSVC: 0     0.475770
+1     7.145305
+2    26.733815
+Name: trainTimeSecMean, dtype: float64, 0    0.019329
+1    0.083290
+2    0.119041
+Name: trainTimeSecStd, dtype: float64
+Facenet LinearSVC: 0      4.970657
+1     61.893139
+2    221.851026
+Name: trainTimeSecMean, dtype: float64, 0    0.050418
+1    0.565895
+2    5.119424
+Name: trainTimeSecStd, dtype: float64
+Facenet SVM: 0      7.412250
+1    125.181459
+2    430.710789
+Name: trainTimeSecMean, dtype: float64, 0    0.061539
+1    0.949164
+2    0.849376
+Name: trainTimeSecStd, dtype: float64

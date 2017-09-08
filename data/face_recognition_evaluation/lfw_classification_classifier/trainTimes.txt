@@ -1,0 +1,70 @@
+OpenFace SVM: 0    0.631383
+1    4.098318
+2    6.001855
+Name: trainTimeSecMean, dtype: float64, 0    0.036664
+1    0.495248
+2    0.308373
+Name: trainTimeSecStd, dtype: float64
+OpenFace LinearSVC: 0    0.659545
+1    5.580904
+2    7.478048
+Name: trainTimeSecMean, dtype: float64, 0    0.061207
+1    1.059111
+2    0.938342
+Name: trainTimeSecStd, dtype: float64
+OpenFace GaussianNB: 0    0.030674
+1    0.082467
+2    0.098250
+Name: trainTimeSecMean, dtype: float64, 0    0.009403
+1    0.032086
+2    0.014149
+Name: trainTimeSecStd, dtype: float64
+OpenFace DecisionTree: 0     1.440516
+1     8.089409
+2    12.672467
+Name: trainTimeSecMean, dtype: float64, 0    0.127093
+1    0.887533
+2    1.046230
+Name: trainTimeSecStd, dtype: float64
+OpenFace LogisticRegression: 0     3.054305
+1    25.838398
+2    35.960369
+Name: trainTimeSecMean, dtype: float64, 0    0.258650
+1    5.691915
+2    3.862421
+Name: trainTimeSecStd, dtype: float64
+Facenet SVM: 0     6.997316
+1    53.465864
+2    78.387211
+Name: trainTimeSecMean, dtype: float64, 0    0.351537
+1    1.267835
+2    1.935370
+Name: trainTimeSecStd, dtype: float64
+Facenet LinearSVC 0     7.632942
+1    52.682076
+2    85.591043
+Name: trainTimeSecMean, dtype: float64, 0    0.923743
+1    3.099580
+2    3.622080
+Name: trainTimeSecStd, dtype: float64
+Facenet GaussianNB 0    0.075452
+1    0.199086
+2    0.215493
+Name: trainTimeSecMean, dtype: float64, 0    0.027555
+1    0.045428
+2    0.029717
+Name: trainTimeSecStd, dtype: float64
+Facenet DecisionTree 0     22.982065
+1    132.552614
+2    187.500672
+Name: trainTimeSecMean, dtype: float64, 0     1.819386
+1    13.189121
+2     9.260680
+Name: trainTimeSecStd, dtype: float64
+Facenet LogisticRegression 0     37.196670
+1    296.326241
+2    406.062162
+Name: trainTimeSecMean, dtype: float64, 0     2.069186
+1    31.435345
+2    29.587839
+Name: trainTimeSecStd, dtype: float64

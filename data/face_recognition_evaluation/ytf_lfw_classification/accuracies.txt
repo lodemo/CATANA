@@ -1,0 +1,35 @@
+OpenFace SVM: 
+0    0.700909
+1    0.512963
+2    0.423051
+Name: accsMean, dtype: float64, 0    0.0
+1    0.0
+2    0.0
+Name: accsStd, dtype: float64
+
+OpenFace LinearSVC: 
+0    0.730909
+1    0.502525
+2    0.446271
+Name: accsMean, dtype: float64, 0    0.0
+1    0.0
+2    0.0
+Name: accsStd, dtype: float64
+
+Facenet LinearSVC 
+0    0.981818
+1    0.782947
+2    0.772917
+Name: accsMean, dtype: float64, 0    0.0
+1    0.0
+2    0.0
+Name: accsStd, dtype: float64
+
+Facenet SVM 
+0    0.949091
+1    0.727483
+2    0.730750
+Name: accsMean, dtype: float64, 0    0.0
+1    0.0
+2    0.0
+Name: accsStd, dtype: float64

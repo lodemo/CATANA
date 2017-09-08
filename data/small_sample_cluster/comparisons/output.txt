@@ -1,0 +1,65 @@
+old ground truth sample cluster:
+nodes: 24
+edges: 31
+
+
+normal sample cluster
+nodes: 24
+edges: 30
+
+DIFF normal test:
+missing edges: 0
+added edges: 0
+
+
+
+firstth sample cluster
+nodes: 24
+edges: 33
+
+DIFF normal test:
+missing edges: 1
+added edges: 4
+
+
+
+firstth20 sample cluster
+nodes: 24
+edges: 35
+
+DIFF normal test:
+missing edges: 3
+added edges: 8
+
+
+
+median sample cluster
+nodes: 24
+edges: 22
+
+DIFF normal test:
+missing edges: 10
+added edges: 2
+
+
+
+first sample cluster
+nodes: 24
+edges: 29
+
+DIFF normal test:
+missing edges: 13
+added edges: 12
+
+
+
+mean sample cluster
+nodes: 24
+edges: 21
+
+DIFF normal test:
+missing edges: 11
+added edges: 2
+
+
+

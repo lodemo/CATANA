@@ -1,0 +1,18 @@
+OpenFace LinearSVC: 0    0.286792
+1    0.288189
+2    0.292639
+3    0.292862
+Name: predictTimeSecMean, dtype: float64, 0    0.006694
+1    0.005917
+2    0.001981
+3    0.001818
+Name: predictTimeSecStd, dtype: float64
+Facenet LinearSVC: 0    0.051206
+1    0.051418
+2    0.051120
+3    0.051029
+Name: predictTimeSecMean, dtype: float64, 0    0.000159
+1    0.000167
+2    0.000155
+3    0.000110
+Name: predictTimeSecStd, dtype: float64

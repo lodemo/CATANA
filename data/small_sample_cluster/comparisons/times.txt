@@ -1,0 +1,15 @@
+
+For 905 features:
+
+normal: 373.02
+
+firstth: 44.86
+
+firsth20: 57.21
+
+first: 2.30
+
+mean: 2.29
+
+median: 2.29
+

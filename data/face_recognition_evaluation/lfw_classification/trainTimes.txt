@@ -1,0 +1,66 @@
+Eigenfaces: 0       1.881528
+1      57.723642
+2     694.079737
+3    1274.402222
+4    3471.382021
+Name: trainTimeSecMean, dtype: float64, 0      0.137593
+1      5.001144
+2    139.929555
+3    100.674580
+4     20.289565
+Name: trainTimeSecStd, dtype: float64
+Fisherfaces: 0       1.308542
+1      71.832517
+2     805.543298
+3    1563.820213
+4    4585.634320
+Name: trainTimeSecMean, dtype: float64, 0      0.171062
+1      5.762332
+2    186.104433
+3     79.552261
+4    108.470492
+Name: trainTimeSecStd, dtype: float64
+LBPH: 0    0.210180
+1    1.056314
+2    1.534133
+3    2.639429
+4    5.912076
+Name: trainTimeSecMean, dtype: float64, 0    0.019981
+1    0.066019
+2    0.100440
+3    0.166541
+4    1.655426
+Name: trainTimeSecStd, dtype: float64
+OpenFace SVM: 0    0.057031
+1    0.130535
+2    0.452835
+3    1.243510
+4    3.279287
+Name: trainTimeSecMean, dtype: float64, 0    0.139923
+1    0.014627
+2    0.031554
+3    0.024693
+4    0.050378
+Name: trainTimeSecStd, dtype: float64
+OpenFace LinearSVC: 0    0.282843
+1    0.153401
+2    0.436906
+3    1.102117
+4    3.140775
+Name: trainTimeSecMean, dtype: float64, 0    0.431507
+1    0.016234
+2    0.037293
+3    0.041147
+4    0.229694
+Name: trainTimeSecStd, dtype: float64
+Facenet LinearSVC: 0     0.115917
+1     1.806006
+2     5.890617
+3    15.854478
+4    42.871485
+Name: trainTimeSecMean, dtype: float64, 0    0.002094
+1    0.049837
+2    0.229253
+3    0.611396
+4    1.243778
+Name: trainTimeSecStd, dtype: float64

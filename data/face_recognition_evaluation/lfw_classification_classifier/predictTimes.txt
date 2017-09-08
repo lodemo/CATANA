@@ -1,0 +1,70 @@
+OpenFace SVM: 0    0.435539
+1    0.353548
+2    0.293391
+Name: predictTimeSecMean, dtype: float64, 0    0.026525
+1    0.025214
+2    0.011625
+Name: predictTimeSecStd, dtype: float64
+OpenFace LinearSVC: 0    0.443799
+1    0.343548
+2    0.293508
+Name: predictTimeSecMean, dtype: float64, 0    0.027352
+1    0.021248
+2    0.005606
+Name: predictTimeSecStd, dtype: float64
+OpenFace GaussianNB: 0    0.443278
+1    0.347820
+2    0.294526
+Name: predictTimeSecMean, dtype: float64, 0    0.021784
+1    0.019328
+2    0.011250
+Name: predictTimeSecStd, dtype: float64
+OpenFace DecisionTree: 0    0.452054
+1    0.350649
+2    0.292763
+Name: predictTimeSecMean, dtype: float64, 0    0.020098
+1    0.028620
+2    0.015316
+Name: predictTimeSecStd, dtype: float64
+OpenFace LogisticRegression: 0    0.445726
+1    0.334188
+2    0.295010
+Name: predictTimeSecMean, dtype: float64, 0    0.019098
+1    0.026126
+2    0.017175
+Name: predictTimeSecStd, dtype: float64
+Facenet SVM: 0    0.133019
+1    0.125543
+2    0.093831
+Name: predictTimeSecMean, dtype: float64, 0    0.013706
+1    0.016613
+2    0.006647
+Name: predictTimeSecStd, dtype: float64
+Facenet LinearSVC 0    0.126161
+1    0.110488
+2    0.075726
+Name: predictTimeSecMean, dtype: float64, 0    0.010373
+1    0.013551
+2    0.010385
+Name: predictTimeSecStd, dtype: float64
+Facenet GaussianNB 0    0.125925
+1    0.119929
+2    0.114077
+Name: predictTimeSecMean, dtype: float64, 0    0.015618
+1    0.017086
+2    0.006725
+Name: predictTimeSecStd, dtype: float64
+Facenet DecisionTree 0    0.132732
+1    0.099690
+2    0.065492
+Name: predictTimeSecMean, dtype: float64, 0    0.009847
+1    0.014408
+2    0.008618
+Name: predictTimeSecStd, dtype: float64
+Facenet LogisticRegression 0    0.133657
+1    0.079924
+2    0.051257
+Name: predictTimeSecMean, dtype: float64, 0    0.015102
+1    0.016282
+2    0.002780
+Name: predictTimeSecStd, dtype: float64

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <nodes>
+      <node id="UCxK8FgwjHujWeRj4aJOErgw" label="UCxK8FgwjHujWeRj4aJOErgw" />
+      <node id="UCl0mpynmsGpbrJn98xlZGWQ" label="UCl0mpynmsGpbrJn98xlZGWQ" />
+      <node id="UC8aTvyjY38Qf5rS1xBOWI3w" label="UC8aTvyjY38Qf5rS1xBOWI3w" />
+      <node id="UCFN_n9FTABlwDsB1ncWUBMQ" label="UCFN_n9FTABlwDsB1ncWUBMQ" />
+      <node id="UCIVFEaKHBomhznMRX2aiQEQ" label="UCIVFEaKHBomhznMRX2aiQEQ" />
+      <node id="UCjTVNkbx5megxlnl1spy2jg" label="UCjTVNkbx5megxlnl1spy2jg" />
+      <node id="UCnfUCP_4nSws4KUI4Nkdaig" label="UCnfUCP_4nSws4KUI4Nkdaig" />
+      <node id="UCEbv-pDOAaKEwfIAZw63JsQ" label="UCEbv-pDOAaKEwfIAZw63JsQ" />
+      <node id="UCGzDZn8uoXFz0-HyipnaWnw" label="UCGzDZn8uoXFz0-HyipnaWnw" />
+    </nodes>
+    <edges>
+      <edge id="0" source="UCxK8FgwjHujWeRj4aJOErgw" target="UCl0mpynmsGpbrJn98xlZGWQ" weight="18" />
+      <edge id="1" source="UCxK8FgwjHujWeRj4aJOErgw" target="UC8aTvyjY38Qf5rS1xBOWI3w" weight="17" />
+      <edge id="2" source="UCxK8FgwjHujWeRj4aJOErgw" target="UCFN_n9FTABlwDsB1ncWUBMQ" weight="17" />
+      <edge id="3" source="UCxK8FgwjHujWeRj4aJOErgw" target="UCIVFEaKHBomhznMRX2aiQEQ" weight="6" />
+      <edge id="4" source="UCxK8FgwjHujWeRj4aJOErgw" target="UCjTVNkbx5megxlnl1spy2jg" weight="17" />
+      <edge id="5" source="UCxK8FgwjHujWeRj4aJOErgw" target="UCnfUCP_4nSws4KUI4Nkdaig" weight="17" />
+      <edge id="6" source="UCxK8FgwjHujWeRj4aJOErgw" target="UCEbv-pDOAaKEwfIAZw63JsQ" weight="9" />
+      <edge id="7" source="UCxK8FgwjHujWeRj4aJOErgw" target="UCGzDZn8uoXFz0-HyipnaWnw" weight="11" />
+      <edge id="8" source="UCl0mpynmsGpbrJn98xlZGWQ" target="UC8aTvyjY38Qf5rS1xBOWI3w" weight="18" />
+      <edge id="9" source="UCl0mpynmsGpbrJn98xlZGWQ" target="UCFN_n9FTABlwDsB1ncWUBMQ" weight="18" />
+      <edge id="10" source="UCl0mpynmsGpbrJn98xlZGWQ" target="UCIVFEaKHBomhznMRX2aiQEQ" weight="6" />
+      <edge id="11" source="UCl0mpynmsGpbrJn98xlZGWQ" target="UCjTVNkbx5megxlnl1spy2jg" weight="18" />
+      <edge id="12" source="UCl0mpynmsGpbrJn98xlZGWQ" target="UCnfUCP_4nSws4KUI4Nkdaig" weight="18" />
+      <edge id="13" source="UCl0mpynmsGpbrJn98xlZGWQ" target="UCEbv-pDOAaKEwfIAZw63JsQ" weight="18" />
+      <edge id="14" source="UCl0mpynmsGpbrJn98xlZGWQ" target="UCGzDZn8uoXFz0-HyipnaWnw" weight="18" />
+      <edge id="15" source="UC8aTvyjY38Qf5rS1xBOWI3w" target="UCFN_n9FTABlwDsB1ncWUBMQ" weight="7" />
+      <edge id="16" source="UC8aTvyjY38Qf5rS1xBOWI3w" target="UCIVFEaKHBomhznMRX2aiQEQ" weight="6" />
+      <edge id="17" source="UC8aTvyjY38Qf5rS1xBOWI3w" target="UCjTVNkbx5megxlnl1spy2jg" weight="7" />
+      <edge id="18" source="UC8aTvyjY38Qf5rS1xBOWI3w" target="UCnfUCP_4nSws4KUI4Nkdaig" weight="7" />
+      <edge id="19" source="UC8aTvyjY38Qf5rS1xBOWI3w" target="UCEbv-pDOAaKEwfIAZw63JsQ" weight="9" />
+      <edge id="20" source="UC8aTvyjY38Qf5rS1xBOWI3w" target="UCGzDZn8uoXFz0-HyipnaWnw" weight="11" />
+      <edge id="21" source="UCFN_n9FTABlwDsB1ncWUBMQ" target="UCIVFEaKHBomhznMRX2aiQEQ" weight="6" />
+      <edge id="22" source="UCFN_n9FTABlwDsB1ncWUBMQ" target="UCjTVNkbx5megxlnl1spy2jg" weight="9" />
+      <edge id="23" source="UCFN_n9FTABlwDsB1ncWUBMQ" target="UCnfUCP_4nSws4KUI4Nkdaig" weight="3" />
+      <edge id="24" source="UCFN_n9FTABlwDsB1ncWUBMQ" target="UCEbv-pDOAaKEwfIAZw63JsQ" weight="9" />
+      <edge id="25" source="UCFN_n9FTABlwDsB1ncWUBMQ" target="UCGzDZn8uoXFz0-HyipnaWnw" weight="11" />
+      <edge id="26" source="UCIVFEaKHBomhznMRX2aiQEQ" target="UCjTVNkbx5megxlnl1spy2jg" weight="6" />
+      <edge id="27" source="UCIVFEaKHBomhznMRX2aiQEQ" target="UCnfUCP_4nSws4KUI4Nkdaig" weight="6" />
+      <edge id="28" source="UCIVFEaKHBomhznMRX2aiQEQ" target="UCEbv-pDOAaKEwfIAZw63JsQ" weight="6" />
+      <edge id="29" source="UCIVFEaKHBomhznMRX2aiQEQ" target="UCGzDZn8uoXFz0-HyipnaWnw" weight="6" />
+      <edge id="30" source="UCjTVNkbx5megxlnl1spy2jg" target="UCnfUCP_4nSws4KUI4Nkdaig" weight="5" />
+      <edge id="31" source="UCjTVNkbx5megxlnl1spy2jg" target="UCEbv-pDOAaKEwfIAZw63JsQ" weight="9" />
+      <edge id="32" source="UCjTVNkbx5megxlnl1spy2jg" target="UCGzDZn8uoXFz0-HyipnaWnw" weight="11" />
+      <edge id="33" source="UCnfUCP_4nSws4KUI4Nkdaig" target="UCEbv-pDOAaKEwfIAZw63JsQ" weight="9" />
+      <edge id="34" source="UCnfUCP_4nSws4KUI4Nkdaig" target="UCGzDZn8uoXFz0-HyipnaWnw" weight="11" />
+      <edge id="35" source="UCEbv-pDOAaKEwfIAZw63JsQ" target="UCGzDZn8uoXFz0-HyipnaWnw" weight="9" />
+    </edges>
+  </graph>
+</gexf>

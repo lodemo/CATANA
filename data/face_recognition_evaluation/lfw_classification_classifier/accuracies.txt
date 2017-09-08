@@ -1,0 +1,70 @@
+OpenFace SVM: 0    0.929412
+1    0.731296
+2    0.635031
+Name: accsMean, dtype: float64, 0    0.017541
+1    0.022686
+2    0.012614
+Name: accsStd, dtype: float64
+OpenFace LinearSVC: 0    0.927807
+1    0.768704
+2    0.710183
+Name: accsMean, dtype: float64, 0    0.019901
+1    0.014678
+2    0.018421
+Name: accsStd, dtype: float64
+OpenFace GaussianNB: 0    0.922460
+1    0.703667
+2    0.604888
+Name: accsMean, dtype: float64, 0    0.012711
+1    0.017860
+2    0.013723
+Name: accsStd, dtype: float64
+OpenFace DecisionTree: 0    0.391444
+1    0.149389
+2    0.135642
+Name: accsMean, dtype: float64, 0    0.051559
+1    0.029572
+2    0.015382
+Name: accsStd, dtype: float64
+OpenFace LogisticRegression: 0    0.906417
+1    0.497311
+2    0.417108
+Name: accsMean, dtype: float64, 0    0.024767
+1    0.012947
+2    0.019826
+Name: accsStd, dtype: float64
+Facenet SVM: 0    0.998396
+1    0.995599
+2    0.985336
+Name: accsMean, dtype: float64, 0    0.002451
+1    0.002851
+2    0.007930
+Name: accsStd, dtype: float64
+Facenet LinearSVC 0    0.998396
+1    0.997066
+2    0.993890
+Name: accsMean, dtype: float64, 0    0.002451
+1    0.002131
+2    0.003155
+Name: accsStd, dtype: float64
+Facenet GaussianNB 0    0.993048
+1    0.881907
+2    0.746232
+Name: accsMean, dtype: float64, 0    0.004813
+1    0.015074
+2    0.011813
+Name: accsStd, dtype: float64
+Facenet DecisionTree 0    0.154011
+1    0.071638
+2    0.060896
+Name: accsMean, dtype: float64, 0    0.027869
+1    0.016220
+2    0.011537
+Name: accsStd, dtype: float64
+Facenet LogisticRegression 0    0.997861
+1    0.882885
+2    0.755601
+Name: accsMean, dtype: float64, 0    0.003547
+1    0.010738
+2    0.008641
+Name: accsStd, dtype: float64

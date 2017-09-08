@@ -1,0 +1,66 @@
+Eigenfaces: 0    0.006131
+1    0.005153
+2    0.009737
+3    0.005553
+4    0.005775
+Name: predictTimeSecMean, dtype: float64, 0    0.001943
+1    0.001039
+2    0.005119
+3    0.000534
+4    0.000359
+Name: predictTimeSecStd, dtype: float64
+Fisherfaces: 0    0.000180
+1    0.000291
+2    0.000641
+3    0.000466
+4    0.000586
+Name: predictTimeSecMean, dtype: float64, 0    0.000162
+1    0.000078
+2    0.001071
+3    0.000043
+4    0.000018
+Name: predictTimeSecStd, dtype: float64
+LBPH: 0    0.013143
+1    0.061332
+2    0.094514
+3    0.159173
+4    0.371338
+Name: predictTimeSecMean, dtype: float64, 0    0.002670
+1    0.009414
+2    0.012570
+3    0.019095
+4    0.128986
+Name: predictTimeSecStd, dtype: float64
+OpenFace SVM: 0    0.454752
+1    0.320348
+2    0.300806
+3    0.267164
+4    0.271121
+Name: predictTimeSecMean, dtype: float64, 0    0.258539
+1    0.015374
+2    0.008776
+3    0.001158
+4    0.000525
+Name: predictTimeSecStd, dtype: float64
+OpenFace LinearSVC: 0    0.450467
+1    0.325485
+2    0.303375
+3    0.267465
+4    0.269054
+Name: predictTimeSecMean, dtype: float64, 0    0.245800
+1    0.014913
+2    0.010323
+3    0.000786
+4    0.000511
+Name: predictTimeSecStd, dtype: float64
+Facenet LinearSVC: 0    0.059596
+1    0.058946
+2    0.059142
+3    0.060520
+4    0.059326
+Name: predictTimeSecMean, dtype: float64, 0    0.001286
+1    0.000511
+2    0.000339
+3    0.000580
+4    0.000817
+Name: predictTimeSecStd, dtype: float64

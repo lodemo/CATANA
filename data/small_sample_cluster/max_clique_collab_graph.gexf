@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="label" type="string" />
+    </attributes>
+    <nodes>
+      <node id="UCxK8FgwjHujWeRj4aJOErgw" label="UCxK8FgwjHujWeRj4aJOErgw" />
+      <node id="UCl0mpynmsGpbrJn98xlZGWQ" label="UCl0mpynmsGpbrJn98xlZGWQ" />
+      <node id="UC8aTvyjY38Qf5rS1xBOWI3w" label="UC8aTvyjY38Qf5rS1xBOWI3w" />
+      <node id="UCFN_n9FTABlwDsB1ncWUBMQ" label="UCFN_n9FTABlwDsB1ncWUBMQ" />
+      <node id="UCIVFEaKHBomhznMRX2aiQEQ" label="UCIVFEaKHBomhznMRX2aiQEQ" />
+      <node id="UCjTVNkbx5megxlnl1spy2jg" label="UCjTVNkbx5megxlnl1spy2jg" />
+      <node id="UCnfUCP_4nSws4KUI4Nkdaig" label="UCnfUCP_4nSws4KUI4Nkdaig" />
+      <node id="UCEbv-pDOAaKEwfIAZw63JsQ" label="UCEbv-pDOAaKEwfIAZw63JsQ" />
+      <node id="UCGzDZn8uoXFz0-HyipnaWnw" label="UCGzDZn8uoXFz0-HyipnaWnw" />
+    </nodes>
+    <edges>
+      <edge id="0" source="UC8aTvyjY38Qf5rS1xBOWI3w" target="UCjTVNkbx5megxlnl1spy2jg" weight="1">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="UC8aTvyjY38Qf5rS1xBOWI3w" target="UCnfUCP_4nSws4KUI4Nkdaig" weight="2">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="UCIVFEaKHBomhznMRX2aiQEQ" target="UCnfUCP_4nSws4KUI4Nkdaig" weight="1">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

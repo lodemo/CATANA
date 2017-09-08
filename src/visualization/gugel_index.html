@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="de-DE" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head><meta http-equiv="content-type" content="text/html; charset=utf-8">
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+ <title>YouTube Universum | gugelproductions.de</title>
+ <meta name="description" content="YouTube Universum"/>
+ <meta property="og:locale" content="de_DE" />
+ <meta property="og:type" content="article" />
+ <meta property="og:title" content="YouTube Universum | gugelproductions.de" />
+ <meta property="og:description" content="YouTuber und ihre Netzerke visualisiert. Der Vernetzungsgrad hängt stark vom Genre und Kanaltyp ab." />
+ <meta property="og:url" content="http://universum.gugelproductions.de/" />
+ <meta property="og:site_name" content="Digitaler Film" />
+ <meta property="article:publisher" content="https://www.facebook.com/digitalerfilm" />
+ <meta property="article:author" content="https://www.facebook.com/gugelproductions" />
+ <meta property="article:tag" content="youtube,stars,youtube kanäle,video,netzwerke,youtube netzwerke" />
+ <meta property="article:section" content="Artikel" />
+ <meta property="article:published_time" content="2015-06-06T07:58:07+00:00" />
+ <meta property="article:modified_time" content="2015-06-06T12:30:16+00:00" />
+ <meta property="og:updated_time" content="2015-06-06T12:30:16+00:00" />
+ <meta property="fb:admins" content="658504792" />
+ <meta property="og:image" content="http://universum.gugelproductions.de/img/youtube-universum-teaser.jpg" />
+ <meta name="twitter:card" content="summary"/>
+ <meta name="twitter:description" content="YouTuber und ihre Netzerke visualisiert. Der Vernetzungsgrad hängt stark vom Genre und Kanaltyp ab."/>
+ <meta name="twitter:title" content="YouTube Universum | gugelproductions.de"/>
+ <meta name="twitter:site" content="@digitalerfilm"/>
+ <meta name="twitter:domain" content="Digitaler Film"/>
+ <meta name="twitter:image:src" content="http://universum.gugelproductions.de/img/youtube-universum-teaser.jpg"/>
+ <meta name="twitter:creator" content="@digitalerfilm"/>
+ <link rel="shortcut icon" type="image/ico" href="http://www.gugelproductions.de/favicon.ico" />
+ <link rel="apple-touch-icon" href="http://www.gugelproductions.de/blog/wp-content/uploads/2012/12/apple-touch-icon.png" />
+ <link rel="canonical"  href="http://universum.gugelproductions.de">
+ <script type="text/javascript" src="vis.min.js"></script>
+ <script type="text/javascript" src="data.js"></script>
+
+ <style type="text/css">
+  html,body { 
+    height: 100%; 
+    margin: 0px; 
+    padding: 0px; 
+    font-family: "myriad-pro",Tahoma,Oswald,sans-serif;
+  }
+  #mynetwork {
+    width: 100%;
+    height: 100%;
+
+  }
+  #headline {
+    padding: 0;
+    margin: 0;
+    width:100%;
+    top: 14px;
+    left: 0px;
+    position:absolute;
+    display:inline-block;
+    text-align: center;
+    z-index: 97;
+  }
+  h1 {
+    padding: 4px;
+    margin: 0;
+    display: inline;
+    font-size: 1.5em;
+    line-height: 1.3em;
+
+    font-style: normal;
+    background: #3080CB;
+    border-radius: 4px;
+  }
+  h1 a {
+    color: #fff;
+    text-decoration: none;
+  }
+  h2 {
+    padding: 4px;
+    padding-bottom: 0;
+    margin: 0;
+    color: #EF007B;
+    font-size: 1.2em;
+    background: none;
+  }
+  input {
+    margin-top: 4px;
+    padding: 4px;
+    width: 100%;
+    background:#fff;
+    border:1px solid #3080CB;
+    border-radius: 2px;
+    font-size:1em;
+    color:#3080CB;
+    cursor:pointer;
+  }
+  input[type=text] {
+    margin: 0;
+    width: 94%;
+  }
+  select {
+    margin-top: 4px;
+    padding: 4px;
+    width: 96%;
+    background:#fff;
+    border:1px solid #3080CB;
+    border-radius: 1px;
+    font-size:1em; 
+    color:#3080CB;
+    cursor:pointer;
+  }
+
+  div.vis-network div.vis-navigation div.vis-button {
+    width:34px;
+    height:34px;
+    position:absolute;
+    display:inline-block;
+    background-position: 0px 0px;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  div.vis-network div.vis-navigation div.vis-button:hover {
+  }
+
+  div.vis-network div.vis-navigation div.vis-button:active {
+  }
+
+  div.vis-network div.vis-navigation div.vis-button.vis-up {
+    background-image: url("img/network/upArrow.png");
+    bottom:80px;
+    left:55px;
+  }
+  div.vis-network div.vis-navigation div.vis-button.vis-down {
+    background-image: url("img/network/downArrow.png");
+    bottom:10px;
+    left:55px;
+  }
+  div.vis-network div.vis-navigation div.vis-button.vis-left {
+    background-image: url("img/network/leftArrow.png");
+    bottom:50px;
+    left:22px;
+  }
+  div.vis-network div.vis-navigation div.vis-button.vis-right {
+    background-image: url("img/network/rightArrow.png");
+    bottom:50px;
+    left:95px;
+  }
+  div.vis-network div.vis-navigation div.vis-button.vis-zoomIn {
+    background-image: url("img/network/plus.png");
+    bottom:10px;
+    right:15px;
+  }
+  div.vis-network div.vis-navigation div.vis-button.vis-zoomOut {
+    background-image: url("img/network/minus.png");
+    bottom:10px;
+    right:55px;
+  }
+  div.vis-network div.vis-navigation div.vis-button.vis-zoomExtends {
+    background-image: url("img/network/zoomExtends.png");
+    bottom:50px;
+    right:15px;
+  }
+  div.vis-network-tooltip {
+    position: absolute;
+    visibility: hidden;
+    padding: 5px;
+    white-space: nowrap;
+
+    font-family: verdana;
+    font-size:14px;
+    font-color:#000000;
+    background-color: #f5f4ed;
+
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #808074;
+
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  div.vis-network div.vis-branding {
+    background-image: url("img/network/plus.png");
+    bottom:10px;
+    right: 50%;
+  }
+  #myselection {   
+    width:200px;
+    background: #fcfcfc;
+    border: 1px solid #909090;
+    top: 14px;
+    right: 10px;
+    position:absolute;
+    z-index: 99;
+    border-radius: 2px;    
+    text-align: left;
+    font-size: 0.8em;
+    color: #666;
+    display: block;
+  }
+  #myselection img  {
+    cursor:pointer;
+    padding: 2px;
+  }
+  #myselection p  {
+    padding: 4px;
+  }
+  #branding {
+    width:100%;
+    bottom: 0px;
+    left: 0px;
+    position:absolute;
+    display:inline-block;
+    text-align: center;
+  }
+  #branding span, #branding a  {
+    background: #EF007B;
+    color: #fff;
+  }
+  #branding span {
+    padding: 2px 6px 3px 6px;
+    font-size: 0.8em;
+    font-weight: lighter;
+    border-radius: 2px;
+  }
+  #icons {
+    font-size: 0.3em;
+    bottom: 0px;
+    right: 0px;
+    position:absolute;
+    display:inline-block;
+    text-align: right;
+  }
+  div.expand {  
+    width:20px;
+    height: 20px;
+    background: #fefefe;
+    border: 1px solid #909090;
+    top: 14px;
+    right: 10px;
+    position:absolute;
+    z-index: 98;
+    border-radius: 2px;    
+    text-align: left;
+    font-size: 0.8em;
+    color: #666;
+    cursor:pointer;
+    padding: 2px;
+  }
+  #closeimg {
+    position: absolute; 
+    top: 0;
+    right: 0;
+    padding: 2px;
+  }
+</style>
+</head>
+
+<body>
+  <div id="headline">
+   <h1><a href="http://universum.gugelproductions.de/" target="_blank">YouTube Universum</a></h1>
+ </div>
+ <div class="expand"><img src="img/network/open.png" onclick="toggle_visibility('myselection');"></div>
+ <div id="myselection"><h2>Auswahl</h2> <img src="img/network/close.png" id="closeimg" onclick="toggle_visibility('myselection');">
+  <p>YouTube-Netzwerk-Verbindungen visualisieren:
+    <select name="NetworkSelector" onchange="viewNetwork(this.value)"> 
+      <option value="All">Alle</option>
+      <option value="allyance">allyance</option>
+      <option value="Axel Springer">Axel Springer</option>
+      <option value="BroadbandTV">BroadbandTV</option>
+      <option value="Divimove">Divimove</option>
+      <option value="Mediakraft">Mediakraft</option>
+      <option value="SevenOne">ProSiebenSat.1</option>
+      <option value="RTL">RTL</option>
+      <option value="Studio71">Studio71</option>
+      <option value="TubeOneNetworks">TubeOneNetworks</option>
+      <option value="Kein Netzwerk">YouTuber ohne Netzwerk</option>
+    </select>
+  </p>
+  <p>Die 10 Kanäle mit den meisten eingehenden Verbindungen ansehen: 
+    <input type="button" onclick="startShow();" value="Play >" id="btnShow"></p>
+    <p><a href="http://www.gugelproductions.de/blog/2015/youtube-universum.html" target="_blank">Legende, Anleitung und Hingergründe.</a></p>
+
+    <p>
+      Teilen:<br>
+      <a target="_blank" onclick="return !window.open(this.href, 'Facebook', 'width=640,height=300')" href="http://www.facebook.com/sharer/sharer.php?u=http://universum.gugelproductions.de/"><img src="img/network/facebook.png" alt="Facebook"></a> <a target="_blank" onclick="return !window.open(this.href, 'Twitter', 'width=640,height=300')" href="https://twitter.com/intent/tweet?text=YouTube%20Universum&url=http://universum.gugelproductions.de/&via=digitalerfilm"><img src="img/network/twitter.png" alt="Twitter"></a> <img src="img/network/embed.png" onclick="toggle_visibility('embedcontainer');" alt="Embed Code">
+    </p>
+    <p id="embedcontainer" style="display:none;">Um diese interaktive Grafik einzubinden kopiere einfach den Embed-Code und füge ihn auf deiner Seite ein.
+      <input type="text" value='<iframe width="1280" height="720" src="http://universum.gugelproductions.de/" frameborder="0" allowfullscreen></iframe>' onfocus="this.select();" id="embedcode"></p>
+    </div> 
+    <div id="mynetwork"></div>
+    <script type="text/javascript">
+      var network;
+      var allNodes;
+      var highlightActive = false;
+      var showInterval = false;
+      var nextAnimation = false;
+      var stop = 0;
+      var guidedNodes = [{id: 2993,scale: 0.5},{id: 2993,scale: 0.15},{id: 3096,scale: 0.35},{id: 2974,scale: 0.5},{id: 42,scale: 0.75},{id: 42,scale: 0.15},{id: 2976,scale: 0.4},{id: 2709,scale: 0.4},{id: 93,scale: 0.5},{id: 93,scale: 0.2},{id: 2769,scale: 0.75},{id: 3287,scale: 0.5},{id: 3287,scale: 0.2},{id: 1201,scale: 0.5},{id: 2894,scale: 0.5}];
+      var stops = guidedNodes.length;
+      showButton = document.getElementById('btnShow');
+
+  var nodesDataset = new vis.DataSet(nodes); // these come from WorldCup2014.js
+  var edgesDataset = new vis.DataSet(edges); // these come from WorldCup2014.js
+
+  function redrawAll() {
+    var container = document.getElementById('mynetwork');
+    var options = {
+      nodes: {
+        color: {
+          border: '#3080CB',
+          background: '#3080CB',
+          highlight: {
+            border: '#3080CB',
+            background: '#3080CB'
+          },
+          hover: {
+            border: '#2B7CE9',
+            background: '#D2E5FF'
+          }
+        },
+        shape: 'dot',
+        scaling: {
+          min: 10,
+          max: 100
+        },
+        font: {
+          size: 14,
+          face: 'Tahoma'
+        }
+      },
+      edges: {
+       scaling:{
+        min: 0.15,
+        max: 0.5
+      },
+      width: 0.3,
+      color: {inherit: 'from'},
+      smooth: {
+        type: 'continuous'
+      }
+    },
+    groups: {
+      'Kein Netzwerk': {color: '#FFA807'},
+      Mediakraft: {color: '#EE0000'},
+      Divimove: {color: '#2B7CE9'},
+      allyance: {color: '#EB7DF4'},
+      TubeOneNetworks: {color: '#7BE141'},
+      Studio71: {color: '#FF007E'},
+      BroadbandTV: {color: '#97C2FC'},
+      SevenOne: {color: '#FD5A77'},
+      GamingClerks: {color: '#7C29F0'},
+      XZOZmusicGERMANY: {color: '#FF6000'},
+      'Axel Springer': {color: '#255C03'},
+      Endemol: {color: '#74D66A'},
+      Gold1TV: {color: '#ca6c11'},
+      Daredo_GmbH: {color: '#4f4a4a'},
+      EXMGE: {color: '#8d3602'},
+      WhiteCast: {color: '#620417'},
+      cre8content: {color: '#026422'},
+      anytv: {color: '#01cb42'},
+      Believe: {color: '#c2bdbd'},
+      KontorNewMedia: {color: '#c50367'},
+      AllAboutVideo: {color: '#ee8621'},
+      UniversalComedy: {color: '#9e9494'},
+      RPMNetworks: {color: '#f98b34'},
+      nikitaventures: {color: '#e27203'},
+      WMG: {color: '#0ba5fb'},
+      IDG: {color: '#0a3664'},
+      RTL: {color: '#1169c3'},
+      'the orchard': {color: '#0ba5fb'},
+      Computec: {color: '#013211'},
+      Content_One_GmbH: {color: '#026422'},
+      SME_Germany: {color: '#6e1386'},
+      VIPinfotainment: {color: '#6ecafe'},
+      Brainpool: {color: '#c50367'},
+      Fremantle: {color: '#1169c3'},
+      FullScreen: {color: '#d00b0e'},
+      Motorvision: {color: '#6e1386'},
+      rumblefish: {color: '#ca6c11'},
+      'ZDF Enterprise': {color: '#0ba5fb'},
+      BauerDigital: {color: '#0a3664'},
+      ingrooves: {color: '#1169c3'},
+      machinima: {color: '#9e9494'},
+      MainzVideos: {color: '#6ecafe'},
+      RTL2: {color: '#0d5093'},
+      snackTV: {color: '#7c031b'},
+      wwwHiphopDe: {color: '#0ba5fb'},
+      Blizzard: {color: '#c50367'},
+      CS: {color: '#c62b1c'},
+      Nintendo: {color: '#029732'},
+      BentPixels: {color: '#8f8a8a'},
+      deutschewelle: {color: '#343232'},
+      FirstEntertainment: {color: '#7c031b'},
+      IppenDigital: {color: '#0d5093'},
+      MakerCurse: {color: '#620417'},
+      moviepiloten: {color: '#490d59'},
+      NuoVisoProductions: {color: '#e26b03'},
+      STYNG: {color: '#0d5093'},
+      Tastemade: {color: '#847b7b'},
+      'Zoomin.TV': {color: '#0ba5fb'},
+      AggroTV: {color: '#ee8621'},
+      ARD: {color: '#1169c3'},
+      Base79: {color: '#051d35'},
+      Clipfish: {color: '#051d35'},
+      Finetunes: {color: '#6e1386'},
+      Guesstimate: {color: '#e20330'},
+      Lindenstrasse: {color: '#3cb8fd'},
+      studiohamburg: {color: '#0d5093'},
+      TaichiMusikDE: {color: '#0a3664'},
+      adrevuppm: {color: '#ee8621'},
+      afp: {color: '#9b530e'},
+      audionetwork: {color: '#6a6262'},
+      dmgi: {color: '#a8a3a3'},
+      edmLife: {color: '#f2a04f'},
+      Fifa: {color: '#fd1c49'},
+      Foxcpyt: {color: '#d00b0e'},
+      GalileoPressTrailer: {color: '#fe4d71'},
+      KochMediaGmbH: {color: '#0ba5fb'},
+      maximnoise: {color: '#e0ae03'},
+      RocketCreatorsGmbH: {color: '#7c031b'},
+      SKY: {color: '#847b7b'},
+      SonyBMG: {color: '#d00b0e'},
+      sportfive: {color: '#fe4d71'},
+      TomorrowFocus: {color: '#d00b0e'},
+      Alloy: {color: '#6a6262'},
+      arte: {color: '#ee8621'},
+      Autobild: {color: '#0d4d8c'},
+      ChannelFlip: {color: '#026422'},
+      JOIZ: {color: '#0a3664'},
+      pequenasseniorita11: {color: '#f17009'},
+      SonyPictures: {color: '#9f0a0b'},
+      SpiegelTV: {color: '#d00b0e'},
+      StyleHaul: {color: '#1169c3'},
+      Zooland_Music: {color: '#0ba5fb'}
+    },
+    physics: false,
+    interaction: {
+      tooltipDelay: 200,
+      hideEdgesOnDrag: true,
+      navigationButtons: true,
+      keyboard: true
+    }
+  };
+    var data = {nodes:nodesDataset, edges:edgesDataset} // Note: data is coming from ./datasources/WorldCup2014.js
+
+
+    network = new vis.Network(container, data, options);
+
+    // get a JSON object
+    allNodes = nodesDataset.get({returnType:"Object"});
+
+    network.on("click",neighbourhoodHighlight);
+    
+    var moveToOptions = {
+    position: {x: -674.5318905, y: 511.3700928},    // position to animate to (Numbers)
+    scale: 0.1,              // scale to animate to  (Number)
+    animation: {             // animation object, can also be Boolean
+      duration: 500,                 // animation duration in milliseconds (Number)
+      easingFunction: "easeInOutQuad" // Animation easing function, available are:
+      }                                   // linear, easeInQuad, easeOutQuad, easeInOutQuad,
+    }    
+    network.moveTo(moveToOptions);
+    network.on('animationFinished', function() {
+      setTimeout(checkForNextAnimation, 1000);
+    })
+  }
+
+  function neighbourhoodHighlight(params) {
+    // if something is selected:
+    if (params.nodes.length > 0) {
+      highlightActive = true;
+      var i,j;
+      var selectedNode = params.nodes[0];
+      var degrees = 2;
+
+      // mark all nodes as hard to read.
+      for (var nodeId in allNodes) {
+        allNodes[nodeId].color = 'rgba(200,200,200,0.5)';
+        if (allNodes[nodeId].hiddenLabel === undefined) {
+          allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
+          allNodes[nodeId].label = undefined;
+        }
+      }
+      var connectedNodes = network.getConnectedNodes(selectedNode);
+      var allConnectedNodes = [];
+
+      // get the second degree nodes
+      for (i = 1; i < degrees; i++) {
+        for (j = 0; j < connectedNodes.length; j++) {
+          allConnectedNodes = allConnectedNodes.concat(network.getConnectedNodes(connectedNodes[j]));
+        }
+      }
+
+      // all second degree nodes get a different color and their label back
+      for (i = 0; i < allConnectedNodes.length; i++) {
+        allNodes[allConnectedNodes[i]].color = 'rgba(150,150,150,0.75)';
+        if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+          allNodes[allConnectedNodes[i]].label = allNodes[allConnectedNodes[i]].hiddenLabel;
+          allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+        }
+      }
+
+      // all first degree nodes get their own color and their label back
+      for (i = 0; i < connectedNodes.length; i++) {
+        allNodes[connectedNodes[i]].color = undefined;
+        if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
+          allNodes[connectedNodes[i]].label = allNodes[connectedNodes[i]].hiddenLabel;
+          allNodes[connectedNodes[i]].hiddenLabel = undefined;
+        }
+      }
+
+      // the main node gets its own color and its label back.
+      allNodes[selectedNode].color = undefined;
+      if (allNodes[selectedNode].hiddenLabel !== undefined) {
+        allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+        allNodes[selectedNode].hiddenLabel = undefined;
+      }
+    }
+    else if (highlightActive === true) {
+      // reset all nodes
+      for (var nodeId in allNodes) {
+        allNodes[nodeId].color = undefined;
+        if (allNodes[nodeId].hiddenLabel !== undefined) {
+          allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+          allNodes[nodeId].hiddenLabel = undefined;
+        }
+      }
+      highlightActive = false
+    }
+
+    // transform the object into an array
+    var updateArray = [];
+    for (nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodesDataset.update(updateArray);
+  }
+  function viewNetwork(YTnetwork) {
+    // if something is selected:
+    if (YTnetwork != 'All') {
+      highlightActive = true;
+      var selectedNodes = getObjects(allNodes, 'group', YTnetwork);
+
+      // mark all nodes as hard to read.
+      for (var nodeId in allNodes) {
+        allNodes[nodeId].color = 'rgba(200,200,200,0.5)';
+        if (allNodes[nodeId].hiddenLabel === undefined) {
+          allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
+          allNodes[nodeId].label = undefined;
+        }
+      }
+
+    // Color The network  
+    for (i = 0; i < selectedNodes.length; i++) {
+      selectedNodes[i].color = 'rgba(239,0,123,1)';
+      if (selectedNodes[i].hiddenLabel !== undefined) {
+        selectedNodes[i].label = selectedNodes[i].hiddenLabel;
+        selectedNodes[i].hiddenLabel = undefined;
+      }
+    }
+
+
+  }
+  else if (highlightActive === true) {
+      // reset all nodes
+      for (var nodeId in allNodes) {
+        allNodes[nodeId].color = undefined;
+        if (allNodes[nodeId].hiddenLabel !== undefined) {
+          allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+          allNodes[nodeId].hiddenLabel = undefined;
+        }
+      }
+      highlightActive = false
+    }
+
+    // transform the object into an array
+    var updateArray = [];
+    for (nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodesDataset.update(updateArray);
+  }
+  function getObjects(obj, key, val) {
+    var objects = [];
+    for (var i in obj) {
+      if (!obj.hasOwnProperty(i)) continue;
+      if (typeof obj[i] == 'object') {
+        objects = objects.concat(getObjects(obj[i], key, val));
+      } else if (i == key && obj[key] == val) {
+        objects.push(obj);
+      }
+    }
+    return objects;
+  }
+
+    //  TODO!!!
+    function checkForNextAnimation(){
+      if (nextAnimation === false) { return }
+        else  {
+          startShow();
+        }
+      }
+   //  REWORK
+   function startShow() {
+     nextAnimation = true;
+     showButton.value = '… running …';
+     if (stop < stops) {
+      focusOnNode(guidedNodes[stop].id,guidedNodes[stop].scale)
+      stop++;
+    }
+    else {
+      nextAnimation = false;
+      stop = 0; 
+      showButton.value = 'Play >';
+    }
+  }
+
+  function focusOnNode(nodeId,scale) {
+    var options = {
+        // position: {x:positionx,y:positiony}, // this is not relevant when focusing on nodes
+        scale: scale,
+        offset: {x:0,y:0},
+        animation: {
+          duration: 1000,
+          easingFunction: "easeInOutQuad"
+        }
+      };      
+      network.focus(nodeId, options);
+      network.selectNodes([nodeId]);
+    }
+    function toggle_visibility(id) {
+     var e = document.getElementById(id);
+     if(e.style.display == 'block')
+      e.style.display = 'none';
+    else
+      e.style.display = 'block';
+  }
+
+
+  redrawAll()
+
+</script>
+<p id="branding"><span><a target="_blank" href="https://twitter.com/digitalerfilm">Bertram Gugel</a> 2015 / <a target="_blank" href="http://www.gugelproductions.de/blog/">gugelproductions.de</a></span> </p>
+<small id="icons">Icons: CC BY 3.0 <a target="_blank" href="http://glyphicons.com/">GLYPHICONS.com</a></small>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19029004-3']);
+  _gaq.push(['_setDomainName', 'universum.gugelproductions.de']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

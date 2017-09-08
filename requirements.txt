@@ -1,0 +1,13 @@
+tensorflow==1.0
+scipy
+scikit-learn
+opencv-python
+matplotlib
+pandas
+seaborn
+networkx
+hdbscan
+cython
+scrapy
+sqlalchemy
+cpickle

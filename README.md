@@ -5,25 +5,25 @@ This projects includes data acquisition from YouTube ,video and face processing 
 
 # Directories
 
-##data
+## data
 contains evaluation results and plots
 
-##src
+## src
 contains code for the different pipeline steps
 
-###data_collection
+### data_collection
 crawler code for YouTube, Socialblade and Google Images
 
-###data_evaluation
+### data_evaluation
 evaluation code, jupyter-notebook based evaluation, code for plot creation
 
-###face_recognition
+### face_recognition
 video download, face recognition and clustering pipeline, contains Facenet code base aswell as youtube_dl
 
-###visualization
+### visualization
 collaboration graph visualization based on Gugel Universum (http://universum.gugelproductions.de/).
 
-###external
+### external
 misc scripts, face recognition evaluation scripts (heavily based on FaceNet and OpenFace (https://cmusatyalab.github.io/openface/) code)
 
 
@@ -32,7 +32,7 @@ For face feature extraction trained models and code from [FaceNet](https://githu
 Face detection and alignment uses MTCNN [Multi-task CNN](https://kpzhang93.github.io/MTCNN_face_detection_alignment/index.html).
 
 
-##Clustering
+## Clustering
 For clustering face features, the algorithm [HDBSCAN](https://github.com/scikit-learn-contrib/hdbscan) is used.
 
 ## Performance

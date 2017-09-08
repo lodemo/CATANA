@@ -4,18 +4,26 @@ YouTube analysis concerning content creator collaborations in videos, using face
 This projects includes data acquisition from YouTube ,video and face processing and statistics evaluation.
 
 # Directories
-##data:
+
+##data
 contains evaluation results and plots
-##src:
-###data_collection:
+
+##src
+contains code for the different pipeline steps
+
+###data_collection
 crawler code for YouTube, Socialblade and Google Images
-###data_evaluation:
+
+###data_evaluation
 evaluation code, jupyter-notebook based evaluation, code for plot creation
-###face_recognition:
+
+###face_recognition
 video download, face recognition and clustering pipeline, contains Facenet code base aswell as youtube_dl
-###visualization:
+
+###visualization
 collaboration graph visualization based on Gugel Universum (http://universum.gugelproductions.de/).
-###external:
+
+###external
 misc scripts, face recognition evaluation scripts (heavily based on FaceNet and OpenFace (https://cmusatyalab.github.io/openface/) code)
 
 

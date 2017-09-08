@@ -193,7 +193,7 @@ class FaceRecognitionPipeline(object):
 
     #@profile
     def _extractFramesToFeatures(self, video, metricFn):
-        # We combined every step into one function to lower memory consumption by accumilating all frames for every next step
+        # We combined every step into one function to lower memory consumption by not accumulating all frames for every next step
 
         # metricFn is function for selecting frame indices
         frame_num = video.get(cv2.cv.CV_CAP_PROP_FRAME_COUNT)

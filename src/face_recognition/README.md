@@ -1,10 +1,10 @@
-#Face recognition and clustering pipeline
+# Face recognition and clustering pipeline
 
 Downloads videos from YouTube, analyses, stores and clusters results
 
 
 
-##Requirements
+## Requirements
 
 - directory "facenet" is the Facenet repo including (frozen) network model files, see MtcnnModel.py and FacenetModel.py
     - see https://github.com/davidsandberg/facenet for installation requirements
@@ -25,11 +25,11 @@ Python requirements:
 - pandas
 - cPickle
 - tensorflow
-- HDBSCAN (http://hdbscan.readthedocs.io/en/latest/)
+- HDBSCAN(http://hdbscan.readthedocs.io/en/latest/)
 - Cython (cython_* compilation)
 
 
-##Usage
+## Usage
 - the pipeline is split into multiple files
 
 - first video extraction pipeline must be executed, downloading videos and storing features in DB
@@ -60,7 +60,7 @@ IF MEMORY CONSUMPTION IS TOO HIGH
 - try mem-mapped script types, loading the distance matrices as mem-mapped numpy arrays
 
 
-##Files
+## Files
 
 tf_board.py:
 creates tensorflow data of the models which can be used to browser based tf-board application

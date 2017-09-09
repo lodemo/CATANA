@@ -1,7 +1,7 @@
-#Data Collection
+# Data Collection
 
 Contains different crawler for the sites YouTube, Socialblade and Google Image Search (not used).
-All crawler are based on the [Scrapy] (https://scrapy.org/) Framework.
+All crawler are based on the [Scrapy](https://scrapy.org/) Framework.
 *link
 
 Needs valid YouTube API key!
@@ -15,9 +15,9 @@ estimate_quota.py:
 - simple script for estimating the daily found videos and YouTube API quote needed, outputs csv file
 
 
-##Directories
+## Directories
 
-[youtubeAPICrawler]:
+### youtubeAPICrawler
 - contains scrapy crawler implementing the described crawler of the thesis.
 - crawls: populate and update
 - usage:
@@ -31,7 +31,7 @@ estimate_quota.py:
 - updatepopulation spider is a extended spider for additional crawling of added information, like thumbnail URLs
 
 
-[sblade]:
+### sblade
 - contains a crawler for the website Socialblade, used to acquire a sample of channel per network (MCN)
 - crawls: broadbandtv, makerstudio, studio71
 
@@ -41,7 +41,7 @@ estimate_quota.py:
 
 
 
-[images]:
+### images
 - contains Google images search crawler
 - crawls: images
 

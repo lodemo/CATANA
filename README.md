@@ -36,7 +36,7 @@ Face detection and alignment uses MTCNN [Multi-task CNN](https://kpzhang93.githu
 For clustering face features, the algorithm [HDBSCAN](https://github.com/scikit-learn-contrib/hdbscan) is used.
 
 ## Performance
-Face recognition evaluation were conducted on the [YouTube Faces] (https://www.cs.tau.ac.il/~wolf/ytfaces/) dataset aswell as Labeled Faces in the Wild [LFW](http://vis-www.cs.umass.edu/lfw/) dataset.
+Face recognition evaluation were conducted on the [YouTube Faces](https://www.cs.tau.ac.il/~wolf/ytfaces/) dataset aswell as Labeled Faces in the Wild [LFW](http://vis-www.cs.umass.edu/lfw/) dataset.
 
 |     | accuracy |
 |-----|----------|

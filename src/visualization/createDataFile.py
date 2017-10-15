@@ -2,7 +2,7 @@
 
 '''
 
-Creates the data.js file for using in the javascript visualization.
+Creates the data.js file for using in the javascript visualization.abs
 
 A exported graph (from gephi) in form of json file must be present in directory, see filename.
 
@@ -73,6 +73,7 @@ for ed in gedges:
     s = {}
     s['from'] = ed['source']
     s['to'] = ed['target']
+    s['weight'] = ed['size']
     edges.append(s)
 
 
@@ -83,7 +84,7 @@ for i, n in enumerate(networks):
     nd['color'] = colors[i]
     groups[n] = nd
 
-with open('filtered_yifan_data.js', 'wb') as dfile:
+with open('filtered_yifan_data_weight_test.js', 'wb') as dfile:
     dfile.write('var nodes = {}\n'.format(json.dumps(nodes)))
     dfile.write('var edges = {}\n'.format(json.dumps(edges)))
     dfile.write('var groups = {}\n'.format(json.dumps(groups)))

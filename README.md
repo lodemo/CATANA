@@ -44,6 +44,10 @@ Face recognition evaluation were conducted on the [YouTube Faces](https://www.cs
 | YTF | 0.998 +- 0.0013  |
 
 
+# Collaboration Detection
+
+See the CATANA publication for further explanation.
+
 # Data
 Data for applying face recognition and evaluation can be acquired using the provided crawler in [data_collection] directory.
 
@@ -51,7 +55,25 @@ Data for applying face recognition and evaluation can be acquired using the prov
 # Usage
 
 ## Installation
-todo
 
-## Requirements
-see requirements.txt
+
+Depending on the use-case different requirements must be met.
+
+For using the CATANA framework only, without evaluation of the other face recognition methods like OpenFace, see requirements.txt aswell as the
+requirements of [FaceNet](https://github.com/davidsandberg/facenet).
+
+For executing the face recognition evaluations, additionally requirements for the OpenFace (https://cmusatyalab.github.io/openface/) framework must be installed.
+
+All use cases also require a current OpenCV 2.4 version installed.
+
+For video extraction, youtube_dl is used, a version is included in the face_recognition directory, but should be updated to a current version when used.
+
+## Usage
+
+See the respective directory Readme files for instructions.
+
+
+## Evaluation
+
+Data evaluation is based on Jupyter notebook .ipynb files located in data_evaluation.
+File names indicate a execution order, while 'XX' files can be executed independent after the strict order execution.

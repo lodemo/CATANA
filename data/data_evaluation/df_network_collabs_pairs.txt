@@ -1,0 +1,405 @@
+	from_network	to_network	nof_collabs
+30	BroadbandTV	BroadbandTV	664
+304	Studio71	Studio71	411
+172	Maker Studios	Maker Studios	364
+228	None	None	258
+207	None	BroadbandTV	228
+49	BroadbandTV	None	168
+301	Studio71	None	150
+237	None	Studio71	110
+225	None	Maker Studios	107
+175	Maker Studios	None	93
+161	Maker Studios	BroadbandTV	57
+46	BroadbandTV	Maker Studios	47
+170	Maker Studios	Fullscreen	34
+327	StyleHaul	StyleHaul	32
+42	BroadbandTV	Fullscreen	29
+286	Studio71	BroadbandTV	28
+126	Fullscreen	Maker Studios	28
+314	Studio71	lacapula	27
+227	None	Mixicom	27
+254	PranksNetwork	PranksNetwork	25
+299	Studio71	Maker Studios	25
+129	Fullscreen	None	25
+220	None	Fullscreen	22
+26	BroadbandTV	AIR	22
+321	StyleHaul	Maker Studios	20
+120	Fullscreen	BroadbandTV	20
+270	Social Blade Legacy	Maker Studios	19
+309	Studio71	TubeOne	18
+85	Curse	BroadbandTV	17
+181	Maker Studios	Studio71	17
+259	ScaleLab	BroadbandTV	16
+54	BroadbandTV	ScaleLab	16
+273	Social Blade Legacy	Social Blade Legacy	14
+59	BroadbandTV	StyleHaul	14
+308	Studio71	TimeWarner	14
+316	StyleHaul	BroadbandTV	13
+294	Studio71	Fullscreen	12
+9	AwesomenessTV	Studio71	12
+231	None	PranksNetwork	12
+396	wizdeo	Social Blade Legacy	12
+65	BroadbandTV	onerpmweb affiliate	11
+213	None	DDNPartners	11
+179	Maker Studios	Social Blade Legacy	11
+131	Fullscreen	Studio71	11
+124	Fullscreen	Fullscreen	10
+238	None	StyleHaul	10
+123	Fullscreen	Freedom!	9
+200	Nerdist	TimeWarner	8
+399	wizdeo managed	wizdeo managed	8
+323	StyleHaul	None	8
+293	Studio71	Freedom!	7
+245	None	disney interactive	7
+15	BigFrame	Studio71	7
+326	StyleHaul	Studio71	6
+347	TubeOne	Studio71	6
+234	None	ScaleLab	6
+196	Mixicom	Mixicom	6
+400	wjoPtSoNLAoX2sLBaKLYng	BroadbandTV	6
+191	Maker Studios	onerpmweb affiliate	6
+274	Social Blade Legacy	Studio71	5
+265	ScaleLab	None	5
+248	None	onerpmweb affiliate	5
+58	BroadbandTV	Studio71	5
+362	YouPartnerVSP	None	5
+55	BroadbandTV	SiriusStarNetwork	5
+163	Maker Studios	Curse	5
+380	onerpmweb affiliate	BroadbandTV	5
+47	BroadbandTV	Mitu	5
+385	onerpmweb affiliate	None	5
+277	Social Blade Legacy	wizdeo	4
+91	DDNPartners	None	4
+166	Maker Studios	Divimove IT affiliated	4
+84	Creators Revolution	PranksNetwork	4
+82	Complex Media	None	4
+160	Maker Studios	Break	4
+27	BroadbandTV	Age of Media	4
+75	ClassicClipsTV	BroadbandTV	4
+285	Studio71	BigFrame	4
+194	Mitu	BroadbandTV	4
+302	Studio71	PranksNetwork	4
+305	Studio71	StyleHaul	4
+41	BroadbandTV	Freedom!	4
+183	Maker Studios	Toms Hardware	3
+151	Machinima	BroadbandTV	3
+13	BigFrame	Maker Studios	3
+8	AwesomenessTV	None	3
+11	BentPixels	Machinima	3
+155	Machinima	Studio71	3
+187	Maker Studios	WhistleSportsFitness	3
+363	YouPartnerVSP	YouPartnerVSP	3
+236	None	Social Blade Legacy	3
+21	BodyMindZone	None	3
+241	None	TubeOne	3
+132	Fullscreen	StyleHaul	3
+93	DevLounge	BuzzMyVideos	3
+35	BroadbandTV	DigiSayLimited Managed	3
+116	Fullscreen	Alloy	3
+287	Studio71	BuzzMyVideos	3
+310	Studio71	Very Us Network Hamburg	3
+125	Fullscreen	Machinima	3
+312	Studio71	e vXdMrHHseZ esYUskSBw	3
+272	Social Blade Legacy	None	3
+138	GeekandSundry	Alloy	3
+202	None	AIR	3
+136	Fullscreen managed	Kin Community	3
+137	Fullscreen managed	Studio71	3
+87	Curse	Maker Studios	3
+346	TubeOne	None	3
+60	BroadbandTV	TopBeautyBlog	3
+353	UCI Affiliate	UCI Affiliate	3
+168	Maker Studios	EndemolEspana	2
+182	Maker Studios	StyleHaul	2
+164	Maker Studios	DDNPartners	2
+154	Machinima	None	2
+177	Maker Studios	RepostNetwork	2
+169	Maker Studios	EpidemicSound	2
+279	SonyBMG	BroadbandTV	2
+195	Mitu	None	2
+297	Studio71	Kin Community	2
+397	wizdeo	wizdeo managed	2
+395	wizdeo	Maker Studios	2
+383	onerpmweb affiliate	Maker Studios	2
+381	onerpmweb affiliate	Fullscreen	2
+377	neotv	BroadbandTV	2
+373	ingrooves	Fullscreen	2
+370	e vXdMrHHseZ esYUskSBw	Studio71	2
+367	disney interactive	Maker Studios	2
+360	Xtreme video sas managed	BroadbandTV	2
+343	TubeOne	BroadbandTV	2
+330	TIN	Maker Studios	2
+319	StyleHaul	Kin Community	2
+317	StyleHaul	Fullscreen	2
+295	Studio71	Fullscreen managed	2
+206	None	Break	2
+291	Studio71	EpidemicSound	2
+290	Studio71	Divimove	2
+284	Studio71	AwesomenessTV	2
+283	Studio71	Alloy	2
+282	Studio71	AIR	2
+280	SonyBMG	ONErpm	2
+149	Kin Community	None	2
+268	Social Blade	BroadbandTV	2
+250	ONErpm	SonyBMG	2
+230	None	OmniaMediaCo	2
+226	None	Mitu	2
+223	None	Kin Community	2
+217	None	FamilyVideoNetwork	2
+150	Kin Community	Studio71	2
+403	wjoPtSoNLAoX2sLBaKLYng	None	2
+17	BodyMindZone	BroadbandTV	2
+112	Freedom!	None	2
+133	Fullscreen	emipub	2
+56	BroadbandTV	Social Blade	2
+128	Fullscreen	NewHavenAssetManagementLLC	2
+52	BroadbandTV	PranksNetwork	2
+119	Fullscreen	Break	2
+45	BroadbandTV	Machinima	2
+34	BroadbandTV	Curse	2
+61	BroadbandTV	TubeOne	2
+109	Freedom!	BroadbandTV	2
+31	BroadbandTV	ClassicClipsTV	2
+99	Emaze	BroadbandTV	2
+100	Endemol beyond Brasil	BroadbandTV	2
+28	BroadbandTV	BodyMindZone	2
+29	BroadbandTV	Break	2
+81	Collab	StyleHaul	2
+105	EpidemicSound	None	2
+62	BroadbandTV	YouPartnerVSP	2
+68	BuzzMyVideos	DevLounge	2
+147	Kin Community	Kin Community	2
+3	Alloy	Break	2
+144	Kin Community	BroadbandTV	2
+4	Alloy	None	2
+146	Kin Community	Fullscreen managed	2
+337	TopBeautyBlog	AIR	1
+320	StyleHaul	M6 wizdeo	1
+36	BroadbandTV	DigitalDynastyMedia	1
+322	StyleHaul	Mitu	1
+288	Studio71	Curse	1
+324	StyleHaul	OmniaMediaCo	1
+325	StyleHaul	SonyBMG	1
+33	BroadbandTV	Creators Revolution	1
+32	BroadbandTV	Complex Media	1
+335	TimeWarner	Nerdist	1
+334	TimeWarner	Alloy	1
+329	StyleHaul	WhistleSportsFitness	1
+336	Toms Hardware	BroadbandTV	1
+37	BroadbandTV	Divimove	1
+331	TIN	TubeOne	1
+67	BroadbandTV	wjoPtSoNLAoX2sLBaKLYng	1
+332	TheVerge	Maker Studios	1
+333	TheVerge	None	1
+69	ChannelFlip Affiliate	Kin Community	1
+328	StyleHaul	Tastemade	1
+318	StyleHaul	KVZMusicLtd	1
+296	Studio71	IDG Germany	1
+38	BroadbandTV	Exmge	1
+57	BroadbandTV	Social Blade Legacy	1
+63	BroadbandTV	Zoomin TV	1
+298	Studio71	MagnoliaNetz	1
+292	Studio71	Exmge	1
+300	Studio71	MusicNations	1
+53	BroadbandTV	Ritual Network	1
+64	BroadbandTV	nfl	1
+66	BroadbandTV	wizdeo	1
+303	Studio71	Social Blade Legacy	1
+51	BroadbandTV	Paragon	1
+50	BroadbandTV	OmniaMediaCo	1
+306	Studio71	TEDtalksDirector	1
+307	Studio71	TheVerge	1
+289	Studio71	DigitalDynastyMedia	1
+48	BroadbandTV	Mixicom	1
+338	TopBeautyBlog	BroadbandTV	1
+44	BroadbandTV	GeekandSundry	1
+311	Studio71	alldefdigital	1
+43	BroadbandTV	GTchannel	1
+313	Studio71	emipub	1
+40	BroadbandTV	FranceTelevisions	1
+315	Studio71	sylo	1
+39	BroadbandTV	FinderStudio A	1
+148	Kin Community	Maker Studios	1
+345	TubeOne	Maker Studios	1
+339	TopBeautyBlog	Fullscreen	1
+340	TopBeautyBlog	None	1
+374	ingrooves	TubeOne	1
+375	itn	None	1
+376	melberries	BroadbandTV	1
+16	BodyMindZone	BodyMindZone	1
+378	nfl	BroadbandTV	1
+379	onerpmweb affiliate	Base79 Ent Spain	1
+14	BigFrame	None	1
+12	BigFrame	BroadbandTV	1
+382	onerpmweb affiliate	MagnoliaNetz	1
+10	Base79	DevLounge	1
+384	onerpmweb affiliate	NSTV Entertainment	1
+7	AwesomenessTV	Maker Studios	1
+386	onerpmweb affiliate	Studio71	1
+387	postgame	GTchannel	1
+388	sandboxnetwork	BroadbandTV	1
+389	theonion	Fullscreen	1
+390	theonion	Maker Studios	1
+391	theorchardmusic	Maker Studios	1
+392	theorchardmusic	None	1
+393	tunesat label	None	1
+394	vivarecords	vivacommunications	1
+6	Arcane	Fullscreen	1
+5	Alloy	TimeWarner	1
+398	wizdeo managed	BroadbandTV	1
+2	Age of Media	Maker Studios	1
+401	wjoPtSoNLAoX2sLBaKLYng	Fullscreen	1
+402	wjoPtSoNLAoX2sLBaKLYng	Maker Studios	1
+372	emipub	NewHavenAssetManagementLLC	1
+371	emipub	BroadbandTV	1
+18	BodyMindZone	Fullscreen	1
+355	UEFA	audionetwork	1
+341	TopBeautyBlog	Zefr SonyPictures	1
+342	TopBeautyBlog	theorchardmusic	1
+344	TubeOne	ChannelFlip Affiliate	1
+71	ChannelFlip Affiliate	None	1
+25	BroadbandTV	2btube	1
+348	TubeOne	TubeOne	1
+349	UCI Affiliate	Fullscreen managed	1
+350	UCI Affiliate	Maker Studios	1
+351	UCI Affiliate	None	1
+352	UCI Affiliate	StyleHaul	1
+24	Break	BroadbandTV	1
+354	UEFA	BroadbandTV	1
+356	Very Us Network Hamburg	Studio71	1
+369	e vXdMrHHseZ esYUskSBw	ARD JungesAngebot	1
+357	WhistleSportsFitness	BroadbandTV	1
+358	WhiteCast	Maker Studios	1
+359	WhiteCast	None	1
+23	BodyMindZone	vivacommunications	1
+361	YouPartnerVSP	BroadbandTV	1
+22	BodyMindZone	QuizGroup	1
+20	BodyMindZone	Maker Studios	1
+364	Zoomin TV	Maker Studios	1
+365	Zoomin TV	Studio71	1
+366	disney interactive	BroadbandTV	1
+19	BodyMindZone	Machinima	1
+368	disney interactive	None	1
+70	ChannelFlip Affiliate	Maker Studios	1
+276	Social Blade Legacy	seedwellcomedy	1
+72	ChannelFrederator	BroadbandTV	1
+216	None	EndemolEspana	1
+186	Maker Studios	UCI Affiliate	1
+117	Fullscreen	Awestruck Network	1
+188	Maker Studios	disney interactive	1
+189	Maker Studios	id0iPcHVVMh4ASTXBUYkOA	1
+190	Maker Studios	nfl	1
+115	Fullscreen	AgoraPro	1
+192	Maker Studios	vivacommunications	1
+193	Mitu	2btube	1
+114	Fullscreen	AIR	1
+113	Freedom!	WWE	1
+197	Mixicom	Studio71	1
+198	NSTV Entertainment	None	1
+199	Nerdist	GeekandSundry	1
+111	Freedom!	Mitu	1
+201	NewHavenAssetManagementLLC	emipub	1
+1	Age of Media	BroadbandTV	1
+203	None	Alloy	1
+204	None	Amuse Inc	1
+205	None	BigFrame	1
+110	Freedom!	Maker Studios	1
+208	None	ChannelFrederator	1
+209	None	ClassicClipsTV	1
+210	None	Collab	1
+211	None	Creators Revolution	1
+212	None	Curse	1
+108	Freedom!	Break	1
+214	None	Divimove IT affiliated	1
+185	Maker Studios	TubeOne	1
+184	Maker Studios	TopBeautyBlog	1
+118	Fullscreen	Base79	1
+165	Maker Studios	DigitalMinds	1
+152	Machinima	Endemol beyond Brasil	1
+153	Machinima	Machinima	1
+145	Kin Community	Fullscreen	1
+156	MagnoliaNetz	Maker Studios	1
+157	Maker Studios	2btube	1
+158	Maker Studios	Age of Media	1
+159	Maker Studios	BelieveSAS	1
+143	Justforlaughsfestival	Studio71	1
+142	Jukin Media	None	1
+162	Maker Studios	ChannelFrederator	1
+141	Jukin Media	BroadbandTV	1
+140	GeekandSundry	ScaleLab	1
+139	GeekandSundry	Nerdist	1
+121	Fullscreen	DigitalMinds	1
+167	Maker Studios	DreamWorksTV	1
+135	Fullscreen	theorchardmusic	1
+134	Fullscreen	ingrooves	1
+171	Maker Studios	Kin Community	1
+130	Fullscreen	Social Blade Legacy	1
+173	Maker Studios	Mitu	1
+174	Maker Studios	Mixicom	1
+176	Maker Studios	OmniaMediaCo	1
+127	Fullscreen	Nerdist	1
+178	Maker Studios	ScaleLab	1
+122	Fullscreen	Endemol beyond Brasil	1
+180	Maker Studios	SonyBMG	1
+215	None	EndemolDE	1
+107	FinderStudio A	The District	1
+281	Splay	None	1
+218	None	FamousID	1
+252	OmniaMediaCo	Exmge	1
+253	OmniaMediaCo	ScaleLab	1
+88	Curse	Studio71	1
+255	PranksNetwork	vivacommunications	1
+256	Qanawat	BroadbandTV	1
+257	Qanawat	Fullscreen	1
+258	Qanawat	Qanawat	1
+86	Curse	Fullscreen	1
+260	ScaleLab	Freedom!	1
+261	ScaleLab	Fullscreen	1
+262	ScaleLab	Machinima	1
+263	ScaleLab	Maker Studios	1
+264	ScaleLab	Mitu	1
+83	CondeNastMaster	Studio71	1
+266	ScaleLab	Rumblefish	1
+267	ScaleLab	Studio71	1
+269	Social Blade Legacy	BroadbandTV	1
+80	Collab	Studio71	1
+271	Social Blade Legacy	NSTV Entertainment	1
+79	Collab	Maker Studios	1
+78	Collab	Jukin Media	1
+77	Collab	BroadbandTV	1
+275	Social Blade Legacy	avex	1
+76	ClassicClipsTV	ScaleLab	1
+278	Social Blade Legacy	wjoPtSoNLAoX2sLBaKLYng	1
+74	Citizine Affiliate	None	1
+73	ChannelFrederator	Collab	1
+251	OmniaMediaCo	BroadbandTV	1
+89	Curse	YouPartnerVSP	1
+249	None	vivacommunications	1
+98	Divimove IT affiliated	Maker Studios	1
+219	None	Freedom!	1
+106	FamilyVideoNetwork	BroadbandTV	1
+221	None	Hasbro UGC	1
+222	None	Jukin Media	1
+224	None	Machinima	1
+104	EndemolEspana	ScaleLab	1
+103	EndemolEspana	Maker Studios	1
+102	EndemolEspana	EndemolEspana	1
+101	Endemol beyond Brasil	Maker Studios	1
+229	None	ONErpm	1
+232	None	RazorAndTie	1
+233	None	RecStudios	1
+235	None	Social Blade	1
+90	DDNPartners	Maker Studios	1
+97	Divimove	Studio71	1
+96	Divimove	Maker Studios	1
+95	Divimove	Alloy	1
+239	None	TheVerge	1
+240	None	TopBeautyBlog	1
+94	DigitalDynastyMedia	None	1
+242	None	UCI Affiliate	1
+243	None	UEFA	1
+244	None	UniversalMC	1
+92	DaIW2zPRWhzQ9Hj7a0QP1w	AIR	1
+246	None	id1o1f%2Bcvp	1
+247	None	lacapula	1
+0	2btube	Freedom!	1

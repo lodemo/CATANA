@@ -1,0 +1,93 @@
+	network	within	outreaching
+10	BroadbandTV	664	373
+58	Studio71	411	328
+42	Maker Studios	364	266
+48	None	258	592
+59	StyleHaul	32	58
+51	PranksNetwork	25	1
+55	Social Blade Legacy	14	36
+34	Fullscreen	10	118
+90	wizdeo managed	8	1
+44	Mixicom	6	1
+72	YouPartnerVSP	3	6
+66	UCI Affiliate	3	4
+39	Kin Community	2	10
+65	TubeOne	1	13
+8	BodyMindZone	1	10
+40	Machinima	1	9
+29	EndemolEspana	1	2
+52	Qanawat	1	2
+53	ScaleLab	0	28
+20	Curse	0	23
+82	onerpmweb affiliate	0	18
+4	AwesomenessTV	0	16
+89	wizdeo	0	16
+7	BigFrame	0	12
+91	wjoPtSoNLAoX2sLBaKLYng	0	10
+46	Nerdist	0	9
+33	Freedom!	0	8
+43	Mitu	0	7
+16	Collab	0	6
+35	Fullscreen managed	0	6
+64	TopBeautyBlog	0	6
+2	Alloy	0	5
+15	ClassicClipsTV	0	5
+21	DDNPartners	0	5
+36	GeekandSundry	0	5
+17	Complex Media	0	4
+19	Creators Revolution	0	4
+56	SonyBMG	0	4
+74	disney interactive	0	4
+6	BentPixels	0	3
+12	ChannelFlip Affiliate	0	3
+23	DevLounge	0	3
+25	Divimove	0	3
+28	Endemol beyond Brasil	0	3
+50	OmniaMediaCo	0	3
+60	TIN	0	3
+75	e vXdMrHHseZ esYUskSBw	0	3
+77	ingrooves	0	3
+1	Age of Media	0	2
+11	BuzzMyVideos	0	2
+13	ChannelFrederator	0	2
+27	Emaze	0	2
+30	EpidemicSound	0	2
+37	Jukin Media	0	2
+49	ONErpm	0	2
+54	Social Blade	0	2
+61	TheVerge	0	2
+62	TimeWarner	0	2
+67	UEFA	0	2
+70	WhiteCast	0	2
+71	Xtreme video sas managed	0	2
+73	Zoomin TV	0	2
+76	emipub	0	2
+80	neotv	0	2
+85	theonion	0	2
+86	theorchardmusic	0	2
+0	2btube	0	1
+3	Arcane	0	1
+5	Base79	0	1
+9	Break	0	1
+14	Citizine Affiliate	0	1
+18	CondeNastMaster	0	1
+22	DaIW2zPRWhzQ9Hj7a0QP1w	0	1
+24	DigitalDynastyMedia	0	1
+26	Divimove IT affiliated	0	1
+31	FamilyVideoNetwork	0	1
+32	FinderStudio A	0	1
+38	Justforlaughsfestival	0	1
+41	MagnoliaNetz	0	1
+45	NSTV Entertainment	0	1
+47	NewHavenAssetManagementLLC	0	1
+57	Splay	0	1
+63	Toms Hardware	0	1
+68	Very Us Network Hamburg	0	1
+69	WhistleSportsFitness	0	1
+78	itn	0	1
+79	melberries	0	1
+81	nfl	0	1
+83	postgame	0	1
+84	sandboxnetwork	0	1
+87	tunesat label	0	1
+88	vivarecords	0	1

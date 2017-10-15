@@ -1,0 +1,59 @@
+channel0	total	channel1	count	cluster
+iO Trendz	134.0	MyCupcakeAddiction	1	4776
+iO Trendz	134.0	SuperwomanVlogs	1	7489
+iO Trendz	134.0	Michael McCrudden	1	7598
+iO Trendz	134.0	Scarce	1	9356
+iO Trendz	134.0	InformOverload	117	7556
+iO Trendz	134.0	PewDiePie	1	5367
+iO Trendz	134.0	SHAYTARDS	1	5257
+iO Trendz	134.0	Pabllo Vittar	1	3053
+iO Trendz	134.0	DJ Akademiks	1	4716
+iO Trendz	134.0	MostAmazingTop10	9	5264
+InformOverload	133.0	InformOverload 2	2	7556
+InformOverload	133.0	LandonProduction Vlogs	1	5975
+InformOverload	133.0	iO Trendz	117	7556
+InformOverload	133.0	HES19Motivation	1	108
+InformOverload	133.0	Bando de Quadrados - Nerd Cristão	1	3447
+InformOverload	133.0	Be Amazed	1	3493
+InformOverload	133.0	Monster Energy	1	5247
+InformOverload	133.0	SHAYTARDS	2	5257
+InformOverload	133.0	MostAmazingTop10	6	8709
+InformOverload	133.0	dangmattsmith	1	5508
+FilmRise	97.0	FilmRise Documentaries	49	252
+FilmRise	97.0	FilmRise True Crime	48	252
+Good Mythical Morning	93.0	Isa Marcial	1	4933
+Good Mythical Morning	93.0	Good Mythical MORE	42	13327
+Good Mythical Morning	93.0	Terror Tube	1	104
+Good Mythical Morning	93.0	Good Mythical MORE	49	8617
+Good Mythical MORE	91.0	Good Mythical Morning	49	8617
+Good Mythical MORE	91.0	Good Mythical Morning	42	13327
+LandonProduction Vlogs	82.0	LandonProduction	27	4811
+LandonProduction Vlogs	82.0	MostAmazingTop10	51	4811
+LandonProduction Vlogs	82.0	InformOverload	1	5975
+LandonProduction Vlogs	82.0	MostAmazingTop10	2	8709
+LandonProduction Vlogs	82.0	LandonProduction	1	4958
+MostAmazingTop10	74.0	LandonProduction Vlogs	2	8709
+MostAmazingTop10	74.0	InformOverload	6	8709
+MostAmazingTop10	74.0	iO Trendz	9	5264
+MostAmazingTop10	74.0	Leandro Osti	1	1166
+MostAmazingTop10	74.0	CHEF MAMA ROSA	1	2188
+MostAmazingTop10	74.0	Black Pigeon Speaks	1	1087
+MostAmazingTop10	74.0	Just For Laughs Gags	1	668
+MostAmazingTop10	74.0	Monster Energy	1	5247
+MostAmazingTop10	74.0	CBR	1	1996
+MostAmazingTop10	74.0	LandonProduction Vlogs	51	4811
+JustKiddingNews	63.0	JustKiddingFilms	2	11464
+JustKiddingNews	63.0	Joe Jo	1	10663
+JustKiddingNews	63.0	James Rodolfo	13	12825
+JustKiddingNews	63.0	Bart & Geo	21	11464
+JustKiddingNews	63.0	Tiff & Case	6	5428
+JustKiddingNews	63.0	JustKiddingParty	15	11464
+JustKiddingNews	63.0	Barbell Brigade	4	11464
+JustKiddingNews	63.0	Nikki Limo	1	2742
+WengieVlogs	57.0	Wengie	13	6626
+WengieVlogs	57.0	Clicknetwork	1	6626
+WengieVlogs	57.0	Maxmellow	28	6626
+WengieVlogs	57.0	Maxmellow	15	5566
+FilmRise True Crime	50.0	Just For Laughs Gags	1	105
+FilmRise True Crime	50.0	FilmRise	48	252
+FilmRise True Crime	50.0	Everyday Estée	1	160

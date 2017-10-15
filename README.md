@@ -45,7 +45,8 @@ Face recognition evaluation were conducted on the [YouTube Faces](https://www.cs
 
 
 # Collaboration Detection
-todo
+
+See the CATANA publication for further explanation.
 
 # Data
 Data for applying face recognition and evaluation can be acquired using the provided crawler in [data_collection] directory.

@@ -29,7 +29,7 @@ Collaborations between YouTube channel are detected based on appearing persons (
 Content creator are assigned to channel based on number of appearances and, as a result, collaborations are modeled in a directed graph.
 
 Graph Schema Example:
-![Alt text](data/collab_graph_sample.png?raw=true "Collaboration graph model" | width=100)
+<img src="data/collab_graph_sample.png" alt="Graph Schema Example" width="300px">
 
 
 # Data
@@ -101,10 +101,11 @@ After clustering, cluster are stored in the database and using the 00_Collaborat
 Directory src/visualization contains different scripts to the creation of a interactive visualization of the found collaboration in form of a graph.
 
 CATANA collaboration graph overview:
-![Alt text](data/collab_graph.png?raw=true "CATANA collaboration graph")
+<img src="data/collab_graph.png" alt="CATANA collaboration graph">
+
 
 1-hop sub-graph for the "PewDiePie" channel:
-<img src="data/collab_graph_sample_pewdiepie.jpg" alt="PewDiePie sample"  width="300px" height="300px">
+<img src="data/collab_graph_sample_pewdiepie.jpg" alt="PewDiePie sample"  width="500px">
 
 For further information see the respective directory README files and code documentation for instructions.
 

@@ -29,7 +29,7 @@ Collaborations between YouTube channel are detected based on appearing persons (
 Content creator are assigned to channel based on number of appearances and, as a result, collaborations are modeled in a directed graph.
 
 Graph Schema Example:
-![Alt text](data/collab_graph_sample.png?raw=true "Collaboration graph model")
+![Alt text](data/collab_graph_sample.png?raw=true "Collaboration graph model" | width=100)
 
 
 # Data
@@ -104,7 +104,7 @@ CATANA collaboration graph overview:
 ![Alt text](data/collab_graph.png?raw=true "CATANA collaboration graph")
 
 1-hop sub-graph for the "PewDiePie" channel:
-![Alt text](data/collab_graph_sample_pewdiepie.jpg?raw=true "PewDiePie sub-graph")
+![Alt text](data/collab_graph_sample_pewdiepie.jpg?raw=true "PewDiePie sub-graph" | width=300)
 
 
 

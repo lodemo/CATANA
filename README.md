@@ -104,9 +104,7 @@ CATANA collaboration graph overview:
 ![Alt text](data/collab_graph.png?raw=true "CATANA collaboration graph")
 
 1-hop sub-graph for the "PewDiePie" channel:
-![Alt text](data/collab_graph_sample_pewdiepie.jpg | width=300)
-
-<img src="data/collab_graph_sample_pewdiepie.jpg" alt="PewDiePie sample" style="width:300;">
+<img src="data/collab_graph_sample_pewdiepie.jpg" alt="PewDiePie sample"  width="300px" height="300px">
 
 For further information see the respective directory README files and code documentation for instructions.
 

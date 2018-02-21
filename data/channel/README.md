@@ -4,6 +4,11 @@ network_channel_id_{broadtv, maker, studio71}.json:
 Contain channel-ids of YouTube channel which are associated by the respective YouTube network BroadBandTV, Maker Studios, Studio71.
 Associations are extracted from SocialBlade website and may be outdated.
 
+network_channel_id_broadtv: 1516 channels
+network_channel_id_maker: 1529 channels
+network_channel_id_studio71: 2549 channels
+
+
 Data is crawled using a Scrapy scraper in data_collection/sblade, a crawl spider per network.
 
 

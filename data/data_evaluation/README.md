@@ -13,6 +13,12 @@ NetworkX DiGraph based.
 network_channel_counts.csv:
 Network name and number of channel associated in our data.
 
+df_channel_languages.csv:
+Language analysis using langdetect (https://github.com/shuyo/language-detection).
+Channel-id to language assocation.
+
+df_channel_num_languages.csv:
+Number of languages occuring in the dataset.
 
 yifan_filtered.json:
 Gephi graph file, used as input for our interactive visualization.

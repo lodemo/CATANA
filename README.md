@@ -30,15 +30,15 @@ Content creator are assigned to channel based on number of appearances and, as a
 
 Graph Schema Example:
 
-<img src="data/collab_graph_sample.png" alt="Graph Schema Example" width="300px">
+<img src="data/figures/collab_graph_sample.png" alt="Graph Schema Example" width="300px">
 
 
 # Data
 Data for applying face recognition and evaluation can be acquired using the provided crawler in [data_collection] directory.
 
-The dataset of this work consists of 7,942 channel, >250K videos aswell as statistical YouTube data for 3 months.
+The dataset of this work consists of 7,942 channel, >250K videos as well as statistical YouTube data for over 3 months.
 
-Evaluation data and plots of this dataset are made available in the data directory.
+Evaluation data and plots of this dataset are made available in the data/figures directory.
 If you are interested in the actual crawled YouTube data you can contact us.
 
 
@@ -103,12 +103,12 @@ Directory src/visualization contains different scripts to the creation of a inte
 
 CATANA collaboration graph overview:
 
-<img src="data/collab_graph.png" alt="CATANA collaboration graph">
+<img src="data/figures/collab_graph.png" alt="CATANA collaboration graph">
 
 
 1-hop sub-graph for the "PewDiePie" channel:
 
-<img src="data/collab_graph_sample_pewdiepie.jpg" alt="PewDiePie sample"  width="500px">
+<img src="data/figures/collab_graph_sample_pewdiepie.jpg" alt="PewDiePie sample"  width="500px">
 
 For further information see the respective directory README files and code documentation for instructions.
 

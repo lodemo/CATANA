@@ -30,15 +30,15 @@ Content creator are assigned to channel based on number of appearances and, as a
 
 Graph Schema Example:
 
-<img src="data/collab_graph_sample.png" alt="Graph Schema Example" width="300px">
+<img src="data/figures/collab_graph_sample.png" alt="Graph Schema Example" width="300px">
 
 
 # Data
 Data for applying face recognition and evaluation can be acquired using the provided crawler in [data_collection] directory.
 
-The dataset of this work consists of 7,942 channel, >250K videos aswell as statistical YouTube data for 3 months.
+The dataset of this work consists of 7,942 channel, >250K videos as well as statistical YouTube data for over 3 months.
 
-Evaluation data and plots of this dataset are made available in the data directory.
+Evaluation data and plots of this dataset are made available in the data/figures directory.
 If you are interested in the actual crawled YouTube data you can contact us.
 
 
@@ -64,8 +64,8 @@ For video extraction, youtube_dl is used, a version is included in the face_reco
 
 Crawling is based on Scrapy. Main crawling for YouTube is implemented in two separated jobs in the youtubeAPICrawler directory.
 Crawl "populate" populates an existing MySQL database with static data of channels and should only be executes once at the beginning.
-Crawl "update" is the task for repeated crawl of dynamically data like view, or subscriber counts. Its also checks for new videos uploaded by the channels in the MySQL database and 
-adds these to the database. In the work of CATANA this task was executed daily.
+Crawl "update" is the task for repeated crawl of dynamically data like view, or subscriber counts. This crawl also checks for new videos uploaded by the channels in the MySQL database and 
+adds these to the database. In the work of CATANA this crawl was executed daily.
 
 
 ### Face Recognition Pipeline
@@ -74,27 +74,29 @@ The face recognition pipeline is a multi-threaded script which downloads a list 
 the MySQL database.
 File videoPipeline.py is the entry point for the face recognition pipeline, where certain videos are read from the database and a multi-thread video downloader based on youtube_dl is started.
 The actual face recognition application is implemented as a convenient PostProcessor class of youtube_dl which directly plugs-in after the download process.
-The process runs a long time, depending on the internet-connection and the number of videos. For us 21sec/video in average.
+The process potentially runs a long time, depending on the internet-connection and number of videos. For us, a processing rate of 21sec/video were achieved in average.
 After video analysis is finished, the extracted face embeddings are stored in the database with information of the video and duration.
-Next clustering should be executed on these embeddings.
+Next, clustering should be executed on the found embeddings to link occuring faces across videos.
 
 ### Collaboration Detection / Clustering
 
-Depending on number of embeddings and your system, the clustering process can be applied through different scripts.
+Depending on number of embeddings and system, the clustering process can be applied through different scripts.
 
-collabDetection.py executes all clustering steps in one job and may fall due to memory consumption.
+collabDetection.py executes all clustering steps in one job and may fail due to memory consumption.
 
-IF COMPUTATION TIME IS TOO HIGH, USE SPLIT UP pipeline
+IF COMPUTATION TIME IS TOO HIGH, USE THE SPLIT UP pipeline:
+(collabCreateIndex.py, collabCompIndexBlock.py, collabCompIndexBlockProcess.py)
 
 - create features array from database
 - create indices splitting the matrix up into n parts using collabCreateIndex.py
 - compute the parts separate using collabCompIndexBlock.py or collabCompIndexBlockProcess.py
 
-IF MEMORY CONSUMPTION IS TOO HIGH
+IF MEMORY CONSUMPTION IS TOO HIGH:
+(collabCreateMemMap.py, collabCompDistanceMemMap.py, collabDetectionMemMap.py)
 
 - try mem-mapped script types, loading the distance matrices as mem-mapped numpy arrays
 
-After clustering, cluster are stored in the database and using the 00_Collaboration.ipynb notebook the collaboration detection and graph creation can be executed.
+After clustering, cluster are stored in the database and using the 00_Collaboration.ipynb notebook, the collaboration detection and graph creation can be executed.
 
 
 ### Visualization
@@ -103,12 +105,12 @@ Directory src/visualization contains different scripts to the creation of a inte
 
 CATANA collaboration graph overview:
 
-<img src="data/collab_graph.png" alt="CATANA collaboration graph">
+<img src="data/figures/collab_graph.png" alt="CATANA collaboration graph">
 
 
 1-hop sub-graph for the "PewDiePie" channel:
 
-<img src="data/collab_graph_sample_pewdiepie.jpg" alt="PewDiePie sample"  width="500px">
+<img src="data/figures/collab_graph_sample_pewdiepie.jpg" alt="PewDiePie sample"  width="500px">
 
 For further information see the respective directory README files and code documentation for instructions.
 
@@ -116,7 +118,7 @@ For further information see the respective directory README files and code docum
 ## Evaluation
 
 Data evaluation is based on Jupyter notebook .ipynb files located in data_evaluation.
-File names indicate a execution order, while 'XX' files can be executed independent after the strict order execution.
+File names indicate an execution order, while 'XX' files can be executed independent after the strict order execution.
 
 - 00_Channel Statistics.ipynb: Evaluates channel statistics, mainly only statically data and no daily statistics.
 - 01_Collaborations.ipynb: Reads the found cluster from the database, creates the actual collaboration graph.
@@ -127,7 +129,7 @@ File names indicate a execution order, while 'XX' files can be executed independ
 # Directories
 
 ## data
-contains evaluation results and plots
+contains evaluation results, channel data, YouTube API information and plots
 
 ## src
 contains code for the different pipeline steps

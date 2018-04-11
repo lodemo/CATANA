@@ -1,9 +1,12 @@
 # Detection and Analysis of Content Creator Collaborations in Youtube Videos using Face Recognition
 
 YouTube analysis concerning content creator collaborations in videos, using face recognition.
-This projects includes data acquisition from YouTube, video and face processing and statistical evaluation of YouTube data.
+This projects includes the framework for data acquisition from YouTube, video and face processing and statistical evaluation of the acquired YouTube data.
 
-For more information see the CATANA publication (under submission).
+This repository contains the framework described in the paper 
+Collaborations on YouTube: From Unsupervised
+Detection to the Impact on Video and Channel Popularity, C. Koch, M. Lode, D. Stohr, A. Rizk, R. Steinmetz, ACM Transactions on Multimedia Computing, Communications and Applications (TOMM) 
+(under submission)
 
 
 # Face Recognition Algorithm

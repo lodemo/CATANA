@@ -58,8 +58,13 @@ docker pull lodemo/catana:0.1
 docker run -p 9000:9000 -p 8000:8000 -t -i lodemo/catana:0.1 /bin/bash
 ```
 
-After that a bash is opened and the CATANA repository residing in /catana can be executed.
+After that a bash is opened and the CATANA repository residing in /catana can be executed. (CPU only)
+
 (Note: This Docker image does not include requirements for running the face recognition evaluation scripts (LFW, YTF), which are not directly part of the CATANA framework.)
+
+
+The Docker image can also be compiled by hand using the Dockerfile residing in this repository.
+
 
 
 ### By Hand

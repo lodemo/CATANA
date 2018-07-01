@@ -4,8 +4,7 @@ YouTube analysis concerning content creator collaborations in videos, using face
 This projects includes the framework for data acquisition from YouTube, video and face processing and statistical evaluation of the acquired YouTube data.
 
 This repository contains the framework described in the paper 
-Collaborations on YouTube: From Unsupervised
-*bold*Detection to the Impact on Video and Channel Popularity*bold*, C. Koch, M. Lode, D. Stohr, A. Rizk, R. Steinmetz, ACM Transactions on Multimedia Computing, Communications and Applications (TOMM) 
+**Collaborations on YouTube: From Unsupervised Detection to the Impact on Video and Channel Popularity**, C. Koch, M. Lode, D. Stohr, A. Rizk, R. Steinmetz, ACM Transactions on Multimedia Computing, Communications and Applications (TOMM) 
 (under submission)
 
 

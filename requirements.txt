@@ -1,13 +1,14 @@
+numpy
 tensorflow==1.0
 scipy
 scikit-learn
-opencv-python
+jupyter
 matplotlib
 pandas
 seaborn
 networkx
-hdbscan
 cython
 scrapy
 sqlalchemy
-cpickle
+guppy
+hdbscan

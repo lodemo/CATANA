@@ -46,7 +46,7 @@ from facenet.src.align import detect_face
 
 fileDir = os.path.dirname(os.path.realpath(__file__))
 
-from sizes import total_size
+#from sizes import total_size
 
 class FaceRecognitionPipeline(object):
 
@@ -277,7 +277,7 @@ class FaceRecognitionPipeline(object):
         del alignedFrames
         gc.collect()
 
-        print total_size(features)
+        #print total_size(features)
 
         processTime = time.time() - start
         print 'feature extraction took', processTime, 's, found', len(features)

@@ -5,7 +5,7 @@ This projects includes the framework for data acquisition from YouTube, video an
 
 This repository contains the framework described in the paper 
 Collaborations on YouTube: From Unsupervised
-Detection to the Impact on Video and Channel Popularity, C. Koch, M. Lode, D. Stohr, A. Rizk, R. Steinmetz, ACM Transactions on Multimedia Computing, Communications and Applications (TOMM) 
+*bold*Detection to the Impact on Video and Channel Popularity*bold*, C. Koch, M. Lode, D. Stohr, A. Rizk, R. Steinmetz, ACM Transactions on Multimedia Computing, Communications and Applications (TOMM) 
 (under submission)
 
 
@@ -49,6 +49,21 @@ If you are interested in the actual crawled YouTube data you can contact us.
 
 ## Installation
 
+### Docker
+
+For a simplified deployment we provide a Docker image published under lodemo/catana:0.1.
+
+Which can be run with:
+{
+docker pull lodemo/catana:0.1
+docker run -p 9000:9000 -p 8000:8000 -t -i lodemo/catana:0.1 /bin/bash
+}
+
+After that a bash is opened and the CATANA repository residing in /catana can be executed.
+(Note: This Docker image does not include requirements for running the face recognition evaluation scripts (LFW, YTF), which are not directly part of the CATANA framework.)
+
+
+### By Hand
 
 Depending on the use-case different requirements must be met.
 

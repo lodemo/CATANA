@@ -82,12 +82,24 @@ For video extraction, youtube_dl is used, a version is included in the face_reco
 
 ## Usage
 
+### Database
+
+All parts of the framework in some way interact with a database in which the crawled YouTube data and found face representation are stored.
+We use the python ORM-framework SQLAlchemy to support different underlying database technologies without code changes. 
+By default CATANA expects a MySQL server configuration, but depending on the available technology this can be changed to i.e. a local SQLite for testing.
+
+All database configurations and credentials are set in the respective database.py file, residing in the modules directory. 
+**database.py needs to be updated before usage!**
+
+
 ### Data Crawler
 
 Crawling is based on Scrapy. Main crawling for YouTube is implemented in two separated jobs in the youtubeAPICrawler directory.
 Crawl "populate" populates an existing MySQL database with static data of channels and should only be executes once at the beginning.
 Crawl "update" is the task for repeated crawl of dynamically data like view, or subscriber counts. This crawl also checks for new videos uploaded by the channels in the MySQL database and 
 adds these to the database. In the work of CATANA this crawl was executed daily.
+
+database.py configuration resides in the crawler directory under youtubeAPICrawler/youtubeAPICrawler.
 
 
 ### Face Recognition Pipeline
@@ -99,6 +111,9 @@ The actual face recognition application is implemented as a convenient PostProce
 The process potentially runs a long time, depending on the internet-connection and number of videos. For us, a processing rate of 21sec/video were achieved in average.
 After video analysis is finished, the extracted face embeddings are stored in the database with information of the video and duration.
 Next, clustering should be executed on the found embeddings to link occuring faces across videos.
+
+database.py configuration resides in the face_recognition directory.
+
 
 ### Collaboration Detection / Clustering
 
@@ -135,6 +150,8 @@ CATANA collaboration graph overview:
 <img src="data/figures/collab_graph_sample_pewdiepie.jpg" alt="PewDiePie sample"  width="500px">
 
 For further information see the respective directory README files and code documentation for instructions.
+
+database.py configuration resides in the visualization directory.
 
 
 ## Evaluation

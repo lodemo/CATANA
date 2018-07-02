@@ -146,7 +146,6 @@ class YTDatabase(object):
     def __init__(self):
         #DB_PATH = path.join(self.DATA_DIR, self.DB_FILE)
         #self.engine = create_engine('sqlite://'+DB_PATH, encoding='utf-8', convert_unicode=True)
-        #self.engine = create_engine('sqlite:///C:/Users/moe/ytDatabase.db', encoding='utf-8', convert_unicode=True)
 
         # This engine just used to query for list of databases
         mysql_engine = create_engine('mysql+mysqldb://{0}:{1}@{2}:{3}'.format(self.DB_USER, self.DB_PW, self.DB_HOST, self.DB_PORT), encoding='utf-8', convert_unicode=True)

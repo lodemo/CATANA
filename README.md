@@ -1,11 +1,13 @@
+**Note**: This repository is not maintained anymore. While functioning, please note that due significant changes in the YouTube API quota, the data acquisition using the official YouTube API through the here presented crawler code is not feasible anymore.
+
+
 # Detection and Analysis of Content Creator Collaborations in Youtube Videos using Face Recognition
 
 YouTube analysis concerning content creator collaborations in videos, using face recognition.
 This projects includes the framework for data acquisition from YouTube, video and face processing and statistical evaluation of the acquired YouTube data.
 
 This repository contains the framework described in the paper 
-**Collaborations on YouTube: From Unsupervised Detection to the Impact on Video and Channel Popularity**, C. Koch, M. Lode, D. Stohr, A. Rizk, R. Steinmetz, ACM Transactions on Multimedia Computing, Communications and Applications (TOMM) 
-(under submission)
+**Collaborations on YouTube: From Unsupervised Detection to the Impact on Video and Channel Popularity**, C. Koch, M. Lode, D. Stohr, A. Rizk, R. Steinmetz, ACM Transactions on Multimedia Computing, Communications and Applications (TOMM)
 
 
 # Face Recognition Algorithm
